@@ -20,11 +20,6 @@ A practical and publication-friendly structure is the following:
 ```text
 .
 ├── README.md
-├── LICENSE
-├── article/
-│   ├── semish_main_EN_com_avaliacao_com_link.tex
-│   └── references/
-│       └── sbc-template.bib
 ├── architecture/
 │   ├── README.md
 │   ├── figure-01-result-transmission-architecture-highres.jpg
