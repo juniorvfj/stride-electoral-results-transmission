@@ -1,0 +1,72 @@
+2025-11-16
+-Scopus
+
+String geral do trabalho (ameaças + e-voting) - para ter uma visão ampla da literatura ligada à ameaças e votação eletrônica:
+
+ABS ( "threat model*" OR "threat analys*" OR "security analys*" ) AND ABS ( "election*" OR "e-voting" OR "electronic voting" OR "online voting" ) AND PUBYEAR > 2019 AND PUBYEAR < 2026 AND ( LIMIT-TO ( SUBJAREA , "COMP" ) OR LIMIT-TO ( SUBJAREA , "ENGI" ) OR LIMIT-TO ( SUBJAREA , "BUSI" ) OR LIMIT-TO ( SUBJAREA , "ENER" ) )
+
+90 documents found
+
+
+RQ1 – Ameaças à fase de transmissão de resultados
+
+( TITLE-ABS-KEY ( ( "e-voting" OR "evoting" OR "electronic voting" OR "online voting" ) AND ( "result transmission" OR "results transmission" OR "vote transmission" OR "results reporting" OR "result reporting" OR tabulation OR tallying OR "results tallying" OR "data transmission" OR "file transmission" ) AND ( threat* OR attack* OR "cyber attack*" OR "security threat*" OR "security risk*" OR "cyber risk*" OR "threat model*" OR "threat analysis" ) ) ) AND PUBYEAR > 2019 AND PUBYEAR < 2026 AND ( LIMIT-TO ( SUBJAREA , "COMP" ) OR LIMIT-TO ( SUBJAREA , "ENGI" ) OR LIMIT-TO ( SUBJAREA , "BUSI" ) OR LIMIT-TO ( SUBJAREA , "ENER" ) )
+
+23 documents found
+
+RQ2 – Modelagem de arquitetura, ativos, fluxos e fronteiras de confiança
+
+( TITLE-ABS-KEY ( ( "e-voting" OR "evoting" OR "electronic voting" OR "online voting" ) AND ( "result transmission" OR "results transmission" OR "vote transmission" OR "results reporting" OR "result reporting" OR tabulation OR tallying OR "results tallying" OR "data transmission" OR "file transmission" ) AND ( architecture OR "system architecture" OR "reference architecture" OR "system model*" OR "conceptual model*" OR "logical model*" OR "data flow" OR "data-flow" OR "dataflow diagram" OR "data flow diagram" OR "DFD" OR "trust boundary" OR "trust boundaries" OR "trust zone" OR "trust zones" OR "trust model" ) ) ) AND PUBYEAR > 2019 AND PUBYEAR < 2026 AND ( LIMIT-TO ( SUBJAREA , "COMP" ) OR LIMIT-TO ( SUBJAREA , "ENGI" ) OR LIMIT-TO ( SUBJAREA , "BUSI" ) OR LIMIT-TO ( SUBJAREA , "ENER" ) )
+
+12 documents found
+
+RQ3 - Métodos de modelagem de ameaças
+
+( ABS ( ( "threat model*" OR "threat analys*" OR "security analys*" OR "risk analys*" ) AND ( "STRIDE" OR "DREAD" OR "PASTA" OR "Attack Tree*" OR "NIST SP 800*" ) ) ) AND PUBYEAR > 2019 AND PUBYEAR < 2026 AND ( LIMIT-TO ( SUBJAREA , "COMP" ) OR LIMIT-TO ( SUBJAREA , "ENGI" ) OR LIMIT-TO ( SUBJAREA , "BUSI" ) OR LIMIT-TO ( SUBJAREA , "ENER" ) )
+
+378 documents found
+
+2025-11-20
+-Web Of Science
+
+String geral do trabalho (ameaças + e-voting) - para ter uma visão ampla da literatura ligada à ameaças e votação eletrônica:
+
+TS=(("threat model*" OR "threat analys*" OR "security analys*")
+AND ("election*" OR "e-voting" OR "electronic voting" OR "online voting"))
+AND PY=(2020-2025)
+--AND SU=(Computer Science OR Engineering OR Business Economics OR Energy Fuels)
+
+74 results
+
+RQ1 – Ameaças à fase de transmissão de resultados:
+
+TS=(("e-voting" OR "evoting" OR "electronic voting" OR "online voting")
+AND ("result transmission" OR "results transmission" OR "vote transmission" OR "results reporting" OR "result reporting" OR tabulation OR tallying OR "results tallying" OR "data transmission" OR "file transmission")
+AND (threat* OR attack* OR "cyber attack*" OR "security threat*" OR "security risk*" OR "cyber risk*" OR "threat model*" OR "threat analysis"))
+AND PY=(2020-2025)
+--AND SU=(Computer Science OR Engineering OR Business Economics OR Energy Fuels)
+
+17 results
+
+RQ2 – Modelagem de arquitetura, ativos, fluxos e fronteiras de confiança:
+
+TS=(("e-voting" OR "evoting" OR "electronic voting" OR "online voting")
+AND ("result transmission" OR "results transmission" OR "vote transmission" OR "results reporting" OR "result reporting" OR tabulation OR tallying OR "results tallying" OR "data transmission" OR "file transmission")
+AND (architecture OR "system architecture" OR "reference architecture" OR "system model*" OR "conceptual model*" OR "logical model*" OR "data flow" OR "data-flow" OR "dataflow diagram" OR "data flow diagram" OR "DFD" OR "trust boundary" OR "trust boundaries" OR "trust zone" OR "trust zones" OR "trust model"))
+AND PY=(2020-2025)
+--AND SU=(Computer Science OR Engineering OR Business Economics OR Energy Fuels)
+
+5 results
+
+RQ3 - Métodos de modelagem de ameaças:
+
+TS=(("threat model*" OR "threat analys*" OR "security analys*" OR "risk analys*")
+AND ("STRIDE" OR "DREAD" OR "PASTA" OR "Attack Tree*" OR "NIST SP 800*" OR "MITRE*"))
+AND PY=(2020-2025)
+--AND SU=(Computer Science OR Engineering OR Business Economics OR Energy Fuels)
+
+379 results
+
+
+Completeness of metadata -- 586 docs merged from 2 DBs
+
