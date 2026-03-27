@@ -1,6 +1,6 @@
 # Threat Modeling in the Transmission of Results of an Electronic Voting System Using STRIDE
 
-This repository contains the artifacts that support the study on threat modeling for the transmission of results in electronic voting systems, with emphasis on three complementary fronts: **(i)** the architectural model used in the article, **(ii)** the **proof of concept (POC)** for empirical validation of the STRIDE threat catalog, and **(iii)** the **bibliometric and methodological protocol** used to build and prioritize the literature corpus.
+This repository contains the artifacts that support the study on threat modeling for the transmission of results in electronic voting systems, with emphasis on three complementary fronts: **(i)** the architectural model used in the article, and **(ii)** the **bibliometric and methodological protocol** used to build and prioritize the literature corpus.
 
 The repository was organized to increase **transparency**, **reproducibility**, and **artifact availability** for readers of the article and reviewers interested in inspecting the underlying materials.
 
@@ -11,7 +11,6 @@ This repository was created to:
 - make available the **architectural diagram** used in the article in both high-resolution image format and editable Excalidraw source;
 - document the **research methodology**, especially the bibliometric protocol summarized in Section 4 of the article;
 - preserve the **search strings**, intermediate datasets, scripts, ranking steps, and generated reports used in the literature analysis pipeline;
-- provide access to the **POC artifacts** used to empirically exercise representative STRIDE categories in a transmission-results scenario.
 
 ## Suggested repository structure
 
@@ -24,9 +23,6 @@ A practical and publication-friendly structure is the following:
 │   ├── README.md
 │   ├── figure-01-result-transmission-architecture-highres.jpg
 │   ├── figure-01-result-transmission-architecture.excalidraw
-│   └── exports/
-│       ├── figure-01-result-transmission-architecture.pdf
-│       └── figure-01-result-transmission-architecture.png
 ├── methodology/
 │   ├── README.md
 │   ├── 01_search_strings/
@@ -79,22 +75,12 @@ A practical and publication-friendly structure is the following:
 │   │   ├── 20_MostGlobalCitedDocuments-2025-11-21.png
 │   │   ├── 21_MostLocalCitedDocuments-2025-11-21.png
 │   │   └── 22_MostLocalCitedReferences-2025-11-21.png
-│   └── 06_protocol_summary/
-│       └── methodology_protocol.md
-├── poc/
-│   ├── README.md
-│   └── poc-stride-electoral/
-│       ├── src/
-│       ├── attacks/
-│       ├── tests/
-│       ├── data/
-│       └── docker-compose.yml
 └── docs/
     ├── article-links.md
     └── citation-and-reproducibility-notes.md
 ```
 
-This structure separates the repository into four clear units: **article**, **architecture**, **methodology**, and **POC**.
+This structure separates the repository into four clear units: **article**, **architecture** and **methodology**.
 
 ## Architecture artifacts
 
@@ -104,7 +90,6 @@ The directory `architecture/` should store the material associated with **Figure
 
 - `figure-01-result-transmission-architecture-highres.jpg`: high-resolution version of the figure used in the article;
 - `figure-01-result-transmission-architecture.excalidraw`: original editable Excalidraw file;
-- `exports/`: optional exports in PNG/PDF for direct reuse in manuscripts, presentations, and review packages.
 
 ### Recommended `architecture/README.md`
 
@@ -193,28 +178,11 @@ The `methodology/README.md` file can summarize the workflow in six steps:
 5. **Journal-quality enrichment**: attach SJR values using ISSN matching, source-title comparison, and fuzzy matching when needed. fileciteturn4file4
 6. **Prioritization and selection**: compute SSS and TAPS, generate cluster-wise rankings, and assign relevance groups to guide deeper qualitative reading. fileciteturn4file2turn4file4
 
-## POC linkage
-
-The POC repository documents an empirical validation pipeline for representative STRIDE scenarios in the result-transmission context. The POC simulates a transmission pipeline including a result generator, transmission client, API gateway, integrity-validation service, MinIO-based storage, Redis queue, and chained-hash audit log, across three trust boundaries. fileciteturn4file10turn4file14
-
-The POC repository structure described in the evaluation document contains:
-
-```text
-poc-stride-electoral/
-  src/               # System components
-  attacks/           # Attack scripts by scenario
-  tests/             # Latency tests
-  data/              # JSON results and markdown documentation
-  docker-compose.yml # Containerized infrastructure
-```
-
-This structure can be preserved inside `poc/poc-stride-electoral/` or kept as an independent repository linked from this umbrella repository. fileciteturn4file8turn4file12
-
 ## Minimal citation note for the article
 
 If this repository is cited in the paper, a short note such as the following is sufficient:
 
-> Supplementary materials for architecture readability, bibliometric methodology transparency, and empirical POC artifacts are publicly available in this repository.
+> Supplementary materials for architecture readability and bibliometric methodology transparency are publicly available in this repository.
 
 ## Recommended next files to create
 
@@ -223,7 +191,6 @@ To make the repository immediately usable, the next files worth adding are:
 - `architecture/README.md`
 - `methodology/README.md`
 - `methodology/06_protocol_summary/methodology_protocol.md`
-- `poc/README.md`
 - `docs/citation-and-reproducibility-notes.md`
 
 ## Suggested `methodology_protocol.md` outline
