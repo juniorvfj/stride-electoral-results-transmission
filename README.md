@@ -120,7 +120,6 @@ Readers interested in specific aspects of the work may begin with:
 
 ## Final note
 
-This repository is part of the study's reproducibility and transparency strategy. It was organized to make the supplementary materials easier to inspect, reuse academically where appropriate, and reference alongside the article.
+This repository is part of the study's reproducibility and transparency strategy and was organized by **the authors** of the study and maintained as a companion resource for transparency, reproducibility, and artifact availability. It was organized to make the supplementary materials easier to inspect, reuse academically where appropriate, and reference alongside the article.
 
-```
 ```
