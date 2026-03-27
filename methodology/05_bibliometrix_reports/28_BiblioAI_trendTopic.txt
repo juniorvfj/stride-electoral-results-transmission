@@ -1,0 +1,31 @@
+Greetings Researcher, Biblio AI at your service! Let's delve into the insights offered by this "Trend Topics" plot from your bibliometric analysis, generated from a merged WOS and SCOPUS dataset using the KW_Merged field and identifying the top words each year.
+
+This plot effectively visualizes the evolution of prominent research themes over the period from roughly 2020 to 2024. Each horizontal line represents a distinct keyword, with the light blue segment indicating the interquartile range (IQR) of its annual frequency, and the central point marking the median frequency. The size of the bubbles is crucial, as it directly reflects the annual frequency, thereby highlighting the relative prominence of each term over time. The parameter "N. of words per Year: 3" suggests that the terms displayed are those that ranked among the top 3 most frequent keywords in at least one year within the analyzed period, thus capturing the most significant and evolving topics.
+
+Here's an interpretation of the observed trends:
+
+1.  **Overall Shift from Foundational to Applied and Specific Security Concerns:**
+    *   **Early Period (2020-2021):** The initial years show a focus on foundational and technical aspects of security. Terms like **"security metrics"** (2020), **"model"**, **"cyber-physical system"**, and **"cvss"** (Common Vulnerability Scoring System) (2021) were prominent. This suggests an early emphasis on quantification, modeling, and standardized vulnerability assessment in security research. These terms appear with relatively smaller bubbles, indicating lower frequencies compared to later emerging topics.
+    *   **Mid Period (2022-2023):** There's a noticeable shift towards broader risk management and core cybersecurity concepts. **"risk analysis"**, **"threat modelling"**, **"stride"** (likely referring to the STRIDE threat modeling framework), **"safety"**, **"security"**, and **"cybersecurity"** become more prevalent around 2022-2023. The bubbles for "security" and "cybersecurity" in 2023 are significantly larger, indicating their growing importance as central themes.
+    *   **Latest Period (2024):** The most recent year demonstrates a strong surge in highly specific, application-oriented, and critical security research areas. Terms like **"risks assessments"**, **"cyber threats"**, **"voting systems"**, **"network security"**, and **"e-voting"** emerge with very large bubbles, particularly for "voting systems" and "e-voting", signifying a substantial increase in research output and interest. This indicates a heightened focus on real-world, high-impact security challenges.
+
+2.  **Emerging and High-Impact Topics (2023-2024):**
+    *   **"Voting systems"** and **"e-voting"**: These terms show a remarkable increase in frequency and prominence in 2024, becoming some of the largest bubbles on the plot. This suggests a rapidly growing research interest in the security and integrity of electoral processes, likely driven by contemporary geopolitical concerns, digital transformation in governance, and increasing reliance on electronic systems.
+    *   **"Cyber threats"** and **"network security"**: These terms also show a strong presence and high frequency in 2024, indicating a sustained and perhaps escalating focus on understanding, mitigating, and defending against various cyber attacks and securing network infrastructure.
+    *   **"Risks assessments"**: Its strong appearance in 2024, alongside the above, underscores the critical need for systematic evaluation of vulnerabilities and potential impacts in these advanced and critical systems.
+
+3.  **Sustained and Core Concepts:**
+    *   **"Security"** and **"cybersecurity"**: These fundamental terms show consistently high median frequencies (large bubbles) from 2023 onwards, highlighting their enduring and central role in the research landscape, acting as overarching themes for more specific topics.
+    *   **"Threat modeling"** (upper instance) and **"safety"**: These also remain strong in the later years, indicating continuous efforts in proactive security design and ensuring system resilience.
+
+4.  **Evolving/Fading Prominence:**
+    *   Terms like **"security metrics"**, **"model"**, **"cyber-physical system"**, and **"cvss"** had their peak prominence in earlier years (2020-2021) but do not appear as top terms in the latest period. This doesn't necessarily mean research in these areas has ceased, but rather that they might have become more established, integrated into broader concepts, or overshadowed by more rapidly emerging and urgent topics in terms of keyword frequency. For example, CVSS might be an assumed tool now, rather than a novel research topic.
+
+5.  **Insights from Median and IQR:**
+    *   The size of the central point (median) and its large bubble for terms like "voting systems", "e-voting", "cyber threats", "network security", "security", and "cybersecurity" in 2023-2024 clearly points to their significant and increasing research attention.
+    *   The light blue lines (IQR) generally remain relatively short for the high-frequency terms, indicating a consistent prominence across different publications within those years, rather than highly variable or outlier-driven frequencies.
+
+**Implications for Researchers:**
+This trend analysis suggests that researchers looking to contribute to cutting-edge topics should consider focusing on the security of critical infrastructures (especially **"voting systems"** and **"e-voting"**), advanced **"cyber threats"**, and comprehensive **"risks assessments"** in the context of **"network security"**. While foundational concepts like "security" and "cybersecurity" remain paramount, the field is increasingly moving towards specific application domains and proactive threat management. Researchers might also explore how the principles of earlier prominent terms like "cvss" and "threat modeling" are being applied or adapted within these emerging high-frequency areas.
+
+This detailed view of evolving keyword prominence provides a valuable roadmap for identifying hot topics, potential research gaps, and future directions within your field of study.

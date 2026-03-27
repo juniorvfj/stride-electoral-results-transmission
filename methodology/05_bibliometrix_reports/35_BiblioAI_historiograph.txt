@@ -1,0 +1,48 @@
+Biblio AI here, ready to assist with interpreting your historiograph! This temporal citation network beautifully illustrates the dynamic evolution of research in cybersecurity, particularly focusing on threat modeling and specific application domains. The nodes' colors generally delineate distinct, albeit sometimes interconnected, research streams. Node size likely correlates with the number of citations, indicating impact or relevance within the network.
+
+Let's break down the temporal evolution and key elements across these clusters:
+
+### Overall Network Structure and Temporal Trends
+
+The historiograph displays several distinct clusters, predominantly initiated around 2020-2021, and evolving towards more specialized applications, evaluations, and comparative analyses by 2024-2025. This indicates a rapid maturation of these sub-fields from foundational concepts to more systematic and comprehensive approaches.
+
+### Cluster 1: IoT, Vehicular, and Industrial Control System (ICS) Security with STRIKE (Orange, Blue, Light Blue, Green Nodes)
+
+This cluster represents a robust lineage of research focusing on threat modeling and risk analysis, primarily applied to IoT, vehicular systems, and later expanding to industrial control systems.
+
+*   **Main Citation Path & Temporal Evolution:**
+    *   **Foundations (2020):** The earliest works, `danielis p, 2020` ("An ISO-Compliant Test Procedure For Technical Risk Analyses Of IoT Systems Based On STRIKE") and `aufner p, 2020` ("The IoT Security Gap... Threat Models And Their Implementation"), lay the groundwork for IoT security and the application of the STRIKE methodology. Simultaneously, `hamad m, 2020` ("Savta: A Hybrid Vehicular Threat Model") introduces specialized threat modeling for vehicles.
+    *   **Integration & Specialization (2021-2022):** `damianou a, 2021` ("Threat Modelling Of IoT Systems Using Distributed Ledger Technologies And Iota") builds upon the IoT threat modeling by integrating distributed ledger technologies, showing a move towards decentralized security solutions. `girdhar m, 2022` (with two papers: "Hidden Markov Models-Based Anomaly Correlations For The Cyber-Physical Security Of EV Charging Stations" and "Post-Accident Cyberattack Event Analysis For Connected And Automated Vehicles") represents a significant pivot towards highly specialized areas like Electric Vehicle (EV) and Connected and Automated Vehicle (CAV) cyber-physical security, utilizing advanced techniques like Hidden Markov Models. This paper appears as a pivotal work due to its larger node size and central position, indicating significant influence from prior works and setting the stage for subsequent research.
+    *   **Application & Evaluation (2023-2024):** `abuabed z, 2023` ("STRIKE Threat Model-Based Framework For Assessing The Vulnerabilities Of Modern Vehicles") directly extends the STRIKE methodology to modern vehicles, building on earlier vehicular threat modeling. This stream culminates in `shirvani s, 2024` ("Evaluation Framework For Electric Vehicle Security Risk Assessment") which proposes an evaluation framework for EV security, reflecting a move towards practical assessment tools. Parallel to this, `sassnick o, 2024` ("STRIKE-Based Methodologies For Threat Modeling Of Industrial Control Systems: A Review") broadens the application of STRIKE from IoT and vehicles to Industrial Control Systems (ICS), and, being a review, signifies a maturing understanding of the methodology's versatility.
+*   **Pivotal Works:** `girdhar m, 2022` stands out for consolidating research on EV/CAV security, building on earlier threat modeling efforts. `danielis p, 2020` is foundational for STRIKE in IoT.
+
+### Cluster 2: Automotive Over-The-Air (OTA) Updates and MITRE ATT&CK (Purple and Grey Nodes)
+
+This cluster showcases the evolution of security research specific to automotive systems, particularly focusing on software updates and the adoption of standard cyberattack frameworks.
+
+*   **Main Citation Path & Temporal Evolution:**
+    *   **Initial Focus (2020):** `mahmood s, 2020` ("A Model-Based Security Testing Approach For Automotive Over-The-Air Updates") initiates this path by addressing security testing for automotive OTA updates, a critical component of modern vehicle maintenance and functionality.
+    *   **Refinement & Framework Adoption (2022):** `mahmood s, 2022` ("Systematic Threat Assessment And Security Testing Of Automotive Over-The-Air (OTA) Updates") directly builds on their earlier work, suggesting a more systematic and refined approach to OTA security. Simultaneously, `jo y, 2022` ("Cyberattack Models For Ship Equipment Based On The MITRE ATT&CK Framework") introduces the MITRE ATT&CK framework, initially applied to ship equipment, which marks a significant trend towards using standardized and comprehensive knowledge bases for cyberattack analysis.
+    *   **Synthesis & Future Direction (2025):** The cluster culminates in `al-sada b, 2025` ("MITRE ATT&CK: State Of The Art And Way Forward"), a forward-looking paper indicating that MITRE ATT&CK has become a recognized and influential framework, warranting a comprehensive review and discussion of its future trajectory.
+*   **Pivotal Works:** `mahmood s, 2020` and `mahmood s, 2022` are pivotal for establishing systematic approaches to automotive OTA security. `jo y, 2022` is key for introducing and popularizing the MITRE ATT&CK framework in this domain.
+
+### Cluster 3: Blockchain, Identity, IPv6, and Comparative Threat Modeling (Pink, Red, Brown Nodes)
+
+This cluster presents a more diverse set of early topics, eventually converging on a broader meta-analysis of threat modeling methodologies.
+
+*   **Main Citation Path & Temporal Evolution:**
+    *   **Diverse Foundations (2020-2021):** This cluster begins with three distinct sub-themes:
+        *   **Blockchain & Voting:** `han g, 2020` ("Blockchain-Based Self-Tallying Voting System With Software Updates In Decentralized IoT") and `yang y, 2021` ("Priscore: Blockchain-Based Self-Tallying Election System Supporting Score Voting") explore the application of blockchain for secure, decentralized voting systems, with `yang y, 2021` appearing more prominent.
+        *   **IPv6 Security:** `al-azzawi a, 2021` ("Identification Of The Possible Security Issues Of The 464xlat IPv6 Transition Technology") focuses on security challenges related to IPv6 transition technologies.
+        *   **Self-Sovereign Identity & Risk Analysis:** `naik n, 2021` ("An Attack Tree Based Risk Analysis Method For Investigating Attacks And Facilitating Their Mitigations In Self-Sovereign Identity") delves into risk analysis for self-sovereign identity using attack trees.
+    *   **Continued Development & Comparative Analysis (2023-2024):** The IPv6 thread continues with `al-azzawi a, 2023` ("Lightweight 4over6 Test-Bed For Security Analysis"), indicating ongoing practical development. The most significant temporal development in this cluster is `naik n, 2024` ("A Comparative Analysis Of Threat Modelling Methods: STRIKE, DREAD, VAST, PASTA, OCTAVE, And LINDDUN"). This paper, building on earlier risk analysis (`naik n, 2021`), shifts from applying a specific method (attack trees) to a comprehensive comparative review of *multiple* threat modeling methodologies. This signifies a move towards maturity and a broader understanding of the field's diverse tools.
+*   **Pivotal Works:** `yang y, 2021` appears pivotal for blockchain-based voting systems. `naik n, 2024` is a highly pivotal work, as it acts as a significant synthesis, comparing and contrasting various threat modeling methods, indicating a move towards a meta-level understanding of the discipline.
+
+### Synthesis of Overarching Trends and Key Themes
+
+1.  **From Specific Applications to Methodological Consolidation:** The overall trend across the historiograph is a progression from early research focusing on identifying specific security gaps and proposing initial solutions for particular technologies (IoT, vehicles, blockchain, IPv6) to later work that evaluates, compares, and systematizes these approaches. This is evident in review papers like `sassnick o, 2024` (STRIKE review), `naik n, 2024` (comparative threat modeling), and `al-sada b, 2025` (MITRE ATT&CK review).
+2.  **Emphasis on Threat Modeling and Risk Assessment:** Threat modeling methodologies (e.g., STRIKE) and risk analysis remain a core and persistent theme, constantly being applied to new domains (vehicular, ICS) and undergoing comparative analysis.
+3.  **Emergence of Standardized Frameworks:** The increasing adoption and detailed examination of frameworks like STRIKE and MITRE ATT&CK underscore a field moving towards more standardized, systematic, and industry-recognized approaches for cybersecurity analysis.
+4.  **Critical Infrastructure and Emerging Technologies:** The research highlights critical areas like EV charging stations, connected vehicles, and IoT, indicating a strong focus on securing infrastructure and systems that are increasingly integrated into daily life. Blockchain as an enabler for secure systems (e.g., voting) also appears as an emerging technology focus.
+
+In conclusion, this historiograph provides a clear narrative of a rapidly evolving field. It moves from foundational explorations in specific domains (IoT, automotive) and emerging technologies (blockchain, IPv6) to a more mature phase characterized by systematic methodologies, standardized frameworks, and comparative analyses, all aimed at enhancing the security posture of modern interconnected systems.

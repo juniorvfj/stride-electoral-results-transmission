@@ -1,0 +1,105 @@
+Hello! As Biblio AI, I'm here to help you interpret this 'Authors’ Production Over Time' plot and discuss the bibliometric trends for these top authors. This visualization offers a rich perspective on individual researchers' careers, highlighting their periods of activity, publication output, and scholarly impact.
+
+Let's break down the plot's insights, considering each author's timeline, productivity (bubble size), impact (color intensity), and contextualizing with their most cited articles.
+
+**Overall Observations:**
+
+*   The analysis spans a relatively recent period, from 2020 to 2024 (with some projected data for 2025), suggesting a focus on current and emerging trends within the field.
+*   Most authors demonstrate consistent, albeit varied, publication activity across these years.
+*   The inclusion of data for 2025, a future year, implies the dataset includes accepted or in-press articles, and their "TC/year" values are likely based on early citations or projections, indicating highly anticipated work.
+
+---
+
+**Individual Author Analysis:**
+
+1.  **LI Y:**
+    *   **Timeline:** Active from 2020, with continuous presence through 2025.
+    *   **Productivity & Impact:** LI Y is a standout in terms of *impact*. While productivity (bubble size) remains relatively low, the *citation intensity* (color) is exceptionally high. A substantial peak is observed in **2025** (largest and darkest bubble), followed by strong performance in 2024 and 2023.
+    *   **Key Publications:** The remarkable 2025 impact is driven by "QUANTITATIVE RISK ASSESSMENT FOR CONNECTED AUTOMATED VEHICLES: INTEGRATING IMPROVED STPA-SAFESEC AND BAYESIAN NETWORK" (TCpY 12). Strong contributions also include "COMPLYING WITH ISO 26262 AND ISO/SAE 21434..." (2024, TCpY 7.5) and "TAI-E: A DEVELOPER-FRIENDLY STATIC ANALYSIS FRAMEWORK..." (2023, TCpY 7.3).
+    *   **Research Influence:** LI Y appears to be a highly influential researcher, particularly in the domain of safety and security for intelligent connected vehicles, as well as static analysis frameworks, with several articles garnering significant projected or early citations.
+
+2.  **OUAISSA M:**
+    *   **Timeline:** A relatively concentrated and recent timeline from 2023 to 2025.
+    *   **Productivity & Impact:** OUAISSA M shows a significant surge in both *productivity* (largest bubble) and *impact* (darkest bubble) in **2025**. This suggests a strong upcoming presence or several high-impact articles recently accepted.
+    *   **Key Publications:** The prominent 2025 contributions include "ANALYZING AND MITIGATING ATTACKS IN IOT SMART HOME USING A THREAT MODELING APPROACH-BASED STRIDE" (TCpY 5) and "MITIGATING PHISHING ATTACK IN IOT BASED HEALTHCARE SYSTEM USING A THREAT MODELING APPROACH" (TCpY 2).
+    *   **Research Influence:** This author appears to be an emerging or rapidly rising voice, specializing in threat modeling and mitigation for IoT smart home and healthcare systems. The high projected impact for 2025 indicates highly anticipated contributions.
+
+3.  **MAPLE C:**
+    *   **Timeline:** Consistent activity from 2021 to 2024.
+    *   **Productivity & Impact:** Productivity is relatively low, but there is a clear *citation peak* in **2021** (darkest bubble).
+    *   **Key Publications:** The 2021 impact is predominantly driven by "OFFENSIVE SECURITY: TOWARDS PROACTIVE THREAT HUNTING VIA ADVERSARY EMULATION" (TCpY 5.2). Other impactful work includes threat analysis in additive manufacturing (2024, TCpY 3) and space systems (2022, TCpY 2), indicating a versatile application of threat analysis.
+    *   **Research Influence:** MAPLE C has made a significant mark with work on offensive security and proactive threat hunting, demonstrating continued relevance across diverse security domains.
+
+4.  **ZHANG Y:**
+    *   **Timeline:** Active from 2021 to 2023.
+    *   **Productivity & Impact:** Fairly consistent low productivity, with a strong *impact peak* in **2021** (darkest bubble). Impact seems to decline slightly in 2023.
+    *   **Key Publications:** The 2021 peak aligns with "A SYSTEMATIC RISK ASSESSMENT FRAMEWORK OF AUTOMOTIVE CYBERSECURITY" (TCpY 6). Later work includes blockchain for classical blockchains and ML-based topology prediction (both 2023).
+    *   **Research Influence:** ZHANG Y is a notable contributor to automotive cybersecurity, with an influential framework published early in the observed period.
+
+5.  **ZHANG X:**
+    *   **Timeline:** Active from 2022 to 2024.
+    *   **Productivity & Impact:** Consistent low productivity with a distinct *impact peak* in **2022** (darker bubble), moderating in 2024.
+    *   **Key Publications:** The 2022 impact is linked to "AN EFFICIENT AND ROBUST MULTIDIMENSIONAL DATA AGGREGATION SCHEME FOR SMART GRID BASED ON BLOCKCHAIN" (TCpY 5.2). Later work in 2024 focuses on blockchain for Internet of Vehicles (IoV) data sharing (TCpY 2.5).
+    *   **Research Influence:** ZHANG X contributes significantly to blockchain applications, particularly in smart grid and vehicular networks.
+
+6.  **KHONDOKER R:**
+    *   **Timeline:** Active from 2021 to 2024.
+    *   **Productivity & Impact:** Consistent low productivity with a prominent *impact peak* in **2021** (darkest bubble). Sustained moderate impact in subsequent years.
+    *   **Key Publications:** The 2021 peak is attributed to "STRIDE-BASED CYBER SECURITY THREAT MODELING FOR IOT-ENABLED PRECISION AGRICULTURE SYSTEMS" (TCpY 3.6). Other influential work includes STRIDE-based threat modeling for in-vehicle infotainment systems (2024, TCpY 2.5) and automotive E/E architectures (2022, TCpY 2.5).
+    *   **Research Influence:** KHONDOKER R is a key contributor to cybersecurity threat modeling, especially applying STRIDE to IoT and automotive systems.
+
+7.  **EPIPHANIOU G:**
+    *   **Timeline:** Consistent activity from 2020 to 2024.
+    *   **Productivity & Impact:** Maintains relatively low productivity, with a steady *moderate impact* across the years, showing a slight increase in 2024 (darker bubble).
+    *   **Key Publications:** Notable works in 2024 include "COMPREHENSIVE THREAT ANALYSIS IN ADDITIVE MANUFACTURING SUPPLY CHAIN..." (TCpY 3) and "SECURING CLOUD-ASSISTED CONNECTED AND AUTONOMOUS VEHICLES..." (TCpY 1.5). Also "CHALLENGES IN THREAT MODELLING OF NEW SPACE SYSTEMS" (2022, TCpY 2).
+    *   **Research Influence:** EPIPHANIOU G demonstrates broad expertise in threat analysis across various critical domains, including additive manufacturing, space systems, and connected autonomous vehicles.
+
+8.  **HASAN R:**
+    *   **Timeline:** Active from 2021 to 2024, with a slight dip in 2022.
+    *   **Productivity & Impact:** Shows a cyclical pattern with increased *productivity and impact* in **2021** and **2023**.
+    *   **Key Publications:** Important contributions include "THREAT MODEL-BASED SECURITY ANALYSIS AND MITIGATION STRATEGIES FOR A TRUSTWORTHY METAVERSE" (2023, TCpY 2) and "TOWARDS A THREAT MODEL AND PRIVACY ANALYSIS FOR V2P IN 5G NETWORKS" (2021, TCpY 1.6).
+    *   **Research Influence:** HASAN R is active in threat modeling for emerging technologies like the Metaverse and 5G vehicular-to-pedestrian (V2P) communications.
+
+9.  **AL-AZZAWI A:**
+    *   **Timeline:** Active from 2020 to 2023.
+    *   **Productivity & Impact:** Consistent low productivity with a slight *impact peak* in **2021**.
+    *   **Key Publications:** The 2021 peak is related to "IDENTIFICATION OF THE POSSIBLE SECURITY ISSUES OF THE 464XLAT IPV6 TRANSITION TECHNOLOGY" (TCpY 1.6). Other work focuses on lightweight 4over6 testbeds for security analysis and further IPv6 security issues.
+    *   **Research Influence:** AL-AZZAWI A focuses on the specific area of IPv6 transition technology security issues.
+
+10. **CHEN C:**
+    *   **Timeline:** Active from 2020 to 2022.
+    *   **Productivity & Impact:** Consistent low productivity, with a slight *impact peak* in **2022**.
+    *   **Key Publications:** The 2022 peak is driven by "BUILDING MACHINE LEARNING-BASED THREAT HUNTING SYSTEM FROM SCRATCH" (TCpY 1.8). Other work includes Chinese threat intelligence and blockchain-based electronic voting.
+    *   **Research Influence:** CHEN C contributes to ML-based threat hunting and blockchain applications, showcasing a diverse set of research interests.
+
+11. **KHAN S:**
+    *   **Timeline:** A very recent entry or concentrated activity in 2023, extending to 2024.
+    *   **Productivity & Impact:** A strong concentration of *productivity and impact* in **2023** (larger bubble).
+    *   **Key Publications:** All top three articles are from 2023, confirming this burst: "THREAT MODELING FOR ML-BASED TOPOLOGY PREDICTION IN VEHICULAR EDGE COMPUTING ARCHITECTURE" (TCpY 1.3), "USER-CENTRIC SECURITY AND PRIVACY THREATS IN CONNECTED VEHICLES..." (TCpY 1.3), and "BLOCKCHAIN CBDC SECURITY THREATS USING STRIDE" (TCpY 1).
+    *   **Research Influence:** KHAN S is a significant new voice in threat modeling, specifically focusing on vehicular edge computing, connected vehicles, and blockchain-based central bank digital currencies (CBDCs).
+
+---
+
+**Summary of Key Trends and Insights:**
+
+*   **Emerging Impact Leaders:** LI Y and OUAISSA M stand out with exceptional projected citation impact in future years (2025), indicating their research is highly anticipated or quickly gaining traction, especially in connected vehicle safety/security and IoT threat modeling, respectively.
+*   **Consistent Contributors:** Authors like EPIPHANIOU G and HASAN R show steady output and impact across multiple years, demonstrating sustained engagement in their research areas.
+*   **Impact Peaks:** Many authors exhibit specific years where their publications achieved significantly higher citation impact (e.g., MAPLE C in 2021, ZHANG Y in 2021, ZHANG X in 2022, KHONDOKER R in 2021). These peaks often correlate with highly cited individual articles.
+*   **Focused Bursts of Activity:** KHAN S shows a concentrated burst of productivity and impact in 2023, suggesting a strong entrance into the field or a highly productive period.
+*   **Dominant Themes:** A recurring theme across many authors is **threat modeling** (often using STRIDE) applied to various contemporary systems:
+    *   **Automotive/Connected Vehicles:** LI Y, ZHANG Y, HASAN R, KHAN S, EPIPHANIOU G, KHONDOKER R. This is a particularly strong area.
+    *   **IoT & Smart Systems:** OUAISSA M, KHONDOKER R (precision agriculture), ZHANG X (smart grids).
+    *   **Blockchain & Cryptography:** ZHANG X, ZHANG Y, KHAN S, CHEN C.
+    *   **AI/ML in Security:** CHEN C (threat hunting), MAPLE C (threat hunting), KHAN S (ML-based topology prediction).
+    *   **Specialized Critical Infrastructure:** EPIPHANIOU G (additive manufacturing, space systems).
+
+---
+
+**Guidance for Further Exploration:**
+
+1.  **Deep Dive into High-Impact Work:** For authors like LI Y and OUAISSA M, investigate the specific journals or conferences where their high-impact (future) articles are published. Are they in highly reputable venues, which would support the high projected TC/year?
+2.  **Collaboration Networks:** Consider analyzing co-authorship networks among these leading authors to see if their impact is amplified through collaborations. For instance, MAPLE C and EPIPHANIOU G co-authored "COMPREHENSIVE THREAT ANALYSIS IN ADDITIVE MANUFACTURING SUPPLY CHAIN," suggesting potential synergistic research.
+3.  **Temporal Evolution of Topics:** While the plot shows author production, a topic modeling over time analysis could reveal if authors shift their research focus or if the field itself is evolving, which might explain changes in individual author impact.
+4.  **Citation Context:** For articles with high TC/year, examining the citing articles can provide deeper insights into *why* they are influential and how they are being used by other researchers.
+
+This detailed interpretation should provide a solid foundation for understanding the dynamic landscape of author productivity and impact within your research field.
