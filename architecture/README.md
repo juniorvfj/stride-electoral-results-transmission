@@ -51,6 +51,3 @@ This high-resolution file should be used when the goal is to closely examine:
 - trust boundaries relevant to threat modeling.
 
 The high-resolution artifact is the recommended reference for visual inspection, while the `.excalidraw` file is the recommended reference for editable access and deeper exploration of the diagram structure.
-```
-
-Se quiser, eu também posso te entregar uma versão **mais curta e mais “acadêmica”**, caso você queira um README mais enxuto.
