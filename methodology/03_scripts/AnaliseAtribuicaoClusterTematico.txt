@@ -1,0 +1,25 @@
+#Autor do procedimento: Vicente Ferreira Júnior
+#Assistente de IA utilizado:ChatGPT – modelo GPT-5.1 Thinking
+#Data de execução: 22/11/2025
+
+Considere o arquivo `M_Scopus_WoS_merged_2025-11-21.xlsx`, que corresponde ao resultado final do tratamento dos dados realizado no Bibliometrix, já com a consolidação das bases Web of Science e Scopus, remoção de duplicidades e normalização das referências bibliográficas.
+
+Nesse arquivo foi criada uma nova coluna, na última posição da tabela, denominada "ClusterTematico", que deverá ser preenchida de acordo com os seguintes clusters temáticos identificados na análise bibliométrica:
+
+1. threat modeling
+2. blockchain
+3. risk assessment
+4. network security
+5. electronic voting or e-voting
+
+Para a atribuição de cada cluster temático, deve-se analisar, em cada registro (linha), os conteúdos das seguintes colunas:
+
+* TI – Título do trabalho
+* AB – Abstract/Resumo (campo processado pelo Bibliometrix)
+* KW_Merged – Palavras-chave consolidadas
+
+Com base na análise textual dessas três colunas, o registro deverá ser associado ao cluster temático mais pertinente.
+
+Nos casos em que não for possível estabelecer uma associação clara e consistente com nenhum dos cinco clusters definidos, o valor da coluna "ClusterTematico" deverá ser preenchido com "Não identificado".
+
+Todas as demais colunas do arquivo devem permanecer rigorosamente inalteradas.
