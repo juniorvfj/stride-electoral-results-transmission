@@ -1,20 +1,26 @@
 # Threat Modeling in the Transmission of Results of an Electronic Voting System Using STRIDE
 
-This repository contains the artifacts that support the study on threat modeling for the transmission of results in electronic voting systems, with emphasis on three complementary fronts: **(i)** the architectural model used in the article, and **(ii)** the **bibliometric and methodological protocol** used to build and prioritize the literature corpus.
+This repository provides the supplementary artifacts associated with the study on STRIDE-based threat modeling for the transmission of results in an electronic voting context. Its purpose is to improve **transparency**, **reproducibility**, and **artifact availability** for readers, reviewers, and researchers interested in the architectural, bibliographic, and methodological foundations of the work.
 
-The repository was organized to increase **transparency**, **reproducibility**, and **artifact availability** for readers of the article and reviewers interested in inspecting the underlying materials.
+The repository is organized around two main complementary dimensions:
 
-## Repository goals
+- the **reference architecture** used as the basis for threat elicitation and architectural reasoning in the paper;
+- the **bibliographic and methodological protocol** used to construct, consolidate, enrich, and prioritize the literature corpus that supports the study.
+
+In addition, the repository includes documentation files intended to facilitate citation, reproducibility, and navigation across the available materials.
+
+## Repository scope
 
 This repository was created to:
 
-- make available the **architectural diagram** used in the article in both high-resolution image format and editable Excalidraw source;
-- document the **research methodology**, especially the bibliometric protocol summarized in Section 4 of the article;
-- preserve the **search strings**, intermediate datasets, scripts, ranking steps, and generated reports used in the literature analysis pipeline;
+- make available the architectural diagram used in the article in both **high-resolution image format** and **editable Excalidraw format**;
+- document the bibliographic and analytical workflow summarized in the paper;
+- preserve the search strings, intermediate datasets, scripts, enrichment steps, rankings, and reports associated with the methodological pipeline;
+- provide supporting notes that help readers understand how the supplementary materials relate to the article.
 
-## Suggested repository structure
+The repository is meant to complement the paper, especially in aspects that could not be described in full due to page limitations.
 
-A practical and publication-friendly structure is the following:
+## Repository structure
 
 ```text
 .
@@ -22,198 +28,99 @@ A practical and publication-friendly structure is the following:
 ├── architecture/
 │   ├── README.md
 │   ├── figure-01-result-transmission-architecture-highres.png
-│   ├── figure-01-result-transmission-architecture.excalidraw
+│   └── figure-01-result-transmission-architecture.excalidraw
 ├── methodology/
 │   ├── README.md
 │   ├── 01_search_strings/
-│       ├── 01_search_strings.txt
+│   │   ├── 01_search_strings.txt
 │   │   ├── scopus/
-│   │   │   ├── ScopusExport_2025-11-16_StringGeral.csv
-│   │   │   ├── ScopusExport_2025-11-16_StringAmeacasTransmissao.csv
-│   │   │   ├── ScopusExport_2025-11-16_StringMetodosModelagemAmeacas.csv
-│   │   │   └── ScopusExport_2025-11-16_StringModelagemArquitetura.csv
 │   │   └── web_of_science/
-│   │       ├── WoS_StringGeral_2025-11-20.txt
-│   │       ├── WoS_StringAmeacasTransmissao_2025-11-20.txt
-│   │       ├── WoS_StringMetodosModelagemAmeacas_2025-11-20.txt
-│   │       └── WoS_StringArquiteturaFluxos_2025-11-20.txt
 │   ├── 02_corpus/
-│   │   ├── M_Scopus_WoS_merged_2025-11-21.xlsx
-│   │   ├── M_Scopus_WoS_merged_2025-11-21_normalized.xlsx
-│   │   └── notes/
-│   │       └── Passo a passo da metodologia.txt
 │   ├── 03_scripts/
-│   │   ├── ConsolidacaoBasesWoSScopus.R
-│   │   ├── 01_calcula_SSS_TAPS_Ranking.R
-│   │   ├── 02_atribui_relevancia.R
-│   │   ├── preenche_sjr_fuzzy.py
-│   │   └── AnaliseAtribuicaoClusterTematico.txt
 │   ├── 04_enrichment_and_ranking/
-│   │   ├── scimagojr_2024.csv
-│   │   ├── 1_M_Scopus_WoS_merged_2025-11-21.xlsx
-│   │   ├── 2_M_Scopus_WoS_2025-11-21_clusterizado.xlsx
-│   │   ├── 3_M_Scopus_WoS_2025-11-21_clusterizado_SJR.xlsx
-│   │   ├── 4_M_Scopus_WoS_2025-11-21_clusterizado_SJR_fuzzy.xlsx
-│   │   ├── 5_M_Scopus_WoS_2025-11-21_clusterizado_SJR_fuzzy_ranked.xlsx
-│   │   ├── 6_M_Scopus_WoS_2025-11-21_clusterizado_SJR_fuzzy_ranked_relevancia.xlsx
-│   │   ├── AnaliseAmeacas_ArtigosSelecionados.xlsx
-│   │   └── AnaliseAmeacas_ArtigosSelecionados2.xlsx
-│   ├── 05_bibliometrix_reports/
-│   │   ├── 1_MainInformation.png
-│   │   ├── 1_MainInformation.txt
-│   │   ├── 2_BiblioAI_lifeCycle.zip
-│   │   ├── 2_BiblioAI_lifeCycle.txt
-│   │   ├── 3_BiblioAI_threeFieldPlot.png
-│   │   ├── 3_BiblioAI_threeFieldPlot.txt
-│   │   ├── 4_MostRelevantSources-2025-11-21.png
-│   │   ├── 5_MostLocalCitedSources-2025-11-21.png
-│   │   ├── 6_BradfordLaws-2025-11-21.png
-│   │   ├── 8_SourceDynamics-2025-11-21.png
-│   │   ├── 12_AuthorsProductionOverTime-2025-11-21.png
-│   │   ├── 17_MostRelevantCountries-2025-11-21.png
-│   │   ├── 18_CountryScientificProduction-2025-11-21.png
-│   │   ├── 19_MostCitedCountries-2025-11-21.png
-│   │   ├── 20_MostGlobalCitedDocuments-2025-11-21.png
-│   │   ├── 21_MostLocalCitedDocuments-2025-11-21.png
-│   │   └── 22_MostLocalCitedReferences-2025-11-21.png
+│   └── 05_bibliometrix_reports/
 └── docs/
     ├── article-links.md
     └── citation-and-reproducibility-notes.md
-```
+````
 
-This structure separates the repository into four clear units: **article**, **architecture** and **methodology**.
+## Directory overview
 
-## Architecture artifacts
+### `architecture/`
 
-The directory `architecture/` should store the material associated with **Figure 1** of the paper.
+This directory contains the artifacts related to **Figure 1** of the paper, which represents the reference architecture used in the STRIDE-based analysis of the results-transmission stage.
 
-### Recommended contents
+It includes:
 
-- `figure-01-result-transmission-architecture-highres.jpg`: high-resolution version of the figure used in the article;
-- `figure-01-result-transmission-architecture.excalidraw`: original editable Excalidraw file;
+* a **high-resolution image** for detailed inspection of components, flows, and trust boundaries;
+* an **editable Excalidraw source file** to improve legibility, transparency, and reuse.
 
-### Recommended `architecture/README.md`
+For a detailed explanation of the figure, its architectural scope, and the intended use of the files, see:
 
-This subdirectory should explain:
+* [`architecture/README.md`](architecture/README.md)
 
-- what the figure represents;
-- which architectural scope it covers;
-- that the editable `.excalidraw` source is provided to improve legibility and reuse;
-- that the high-resolution file is the preferred artifact for reviewers and readers who need to inspect components, flows, and trust boundaries in detail.
+### `methodology/`
 
-A concise example:
+This directory contains the methodological artifacts related to the construction and analysis of the bibliographic corpus used to support the article.
 
-> This folder contains the architectural diagram used in the paper to represent the reference scenario for electoral result transmission. The high-resolution image improves readability in relation to the figure embedded in the article, while the `.excalidraw` source allows inspection, editing, and export into additional formats.
+It includes:
 
-## Methodology overview
+* the exact **search strings** used in the study;
+* source-specific exports from **Scopus** and **Web of Science**;
+* the merged and normalized corpus;
+* scripts for consolidation, clustering, enrichment, ranking, and relevance assignment;
+* intermediate and final outputs of the enrichment and ranking workflow;
+* reports generated through bibliometric analysis tools.
 
-Section 4 of the article describes the study as **applied**, **exploratory**, and **descriptive**, with a predominantly **qualitative** approach supported by **quantitative bibliometric techniques** for corpus analysis and prioritization. The study is based on bibliographic and documentary research over public scientific and technical sources. fileciteturn4file0
+For a detailed description of the methodology protocol, including search dimensions, export procedure, consolidation, clustering, SJR enrichment, ranking logic, and reproducibility notes, see:
 
-The bibliographic corpus was built from **Scopus** and **Web of Science**, using search strategies that combined terms related to **threats**, **electronic voting**, **result transmission**, and **threat modeling methods** such as STRIDE, DREAD, and attack trees. The searches covered the **2020–2025** period. fileciteturn4file0
+* [`methodology/README.md`](methodology/README.md)
 
-The exported records were consolidated in **R** using **bibliometrix/Biblioshiny**, with harmonization of metadata, normalization of names, duplicate removal, and exclusion of incomplete records. The resulting corpus comprised **681 documents**, **396 sources**, and an average document age of **2.21 years**. fileciteturn4file0
+### `docs/`
 
-The corpus was then classified into thematic clusters: **threat modeling**, **electronic voting / e-voting**, **network security**, **blockchain**, **risk assessment**, and **not identified**. The largest cluster was **threat modeling** with **446 documents**. fileciteturn4file4
+This directory contains auxiliary documentation intended to support repository use, article linkage, citation, and reproducibility.
 
-To enrich the corpus, the workflow incorporated **SCImago Journal Rank (SJR)** data, using direct ISSN matching whenever possible and **fuzzy string matching** with a threshold of **0.84** when exact matches were not available. fileciteturn4file4
+Current files include:
 
-Finally, the repository preserves the ranking workflow based on the composite indicators **SSS** and **TAPS**, which were used to rank papers inside each thematic cluster and assign the relevance groups **Excellent**, **Relevant**, **Good**, and **Low**. fileciteturn4file2turn4file4
+* [`docs/article-links.md`](docs/article-links.md)
+* [`docs/citation-and-reproducibility-notes.md`](docs/citation-and-reproducibility-notes.md)
 
-## Mapping the methodology folders
+These files are meant to serve as lightweight support material for readers who need quick access to article-related references and repository-use notes without navigating the full set of artifacts.
 
-Based on the current project files, the methodology can be documented as follows.
+## About the proof of concept (POC)
 
-### `01_search_strings/`
-Stores the original search formulations and exported query artifacts for each database.
+The proof of concept used to provide an empirical application of the threat catalog is **not stored in this repository**.
 
-**Purpose:** make the retrieval stage auditable and reproducible.
+To keep the artifacts better organized, the POC was maintained in a **separate dedicated repository**, available at:
 
-Typical contents:
-- Scopus search exports in CSV;
-- Web of Science search strings in TXT;
-- notes describing the purpose of each query family, such as general search, threat-transmission search, threat-modeling methods, and architecture/flow-oriented search.
+* [POC repository](https://github.com/reinermaia/poc-stride-electoral/tree/main)
 
-### `02_corpus/`
-Stores the merged and normalized working corpus.
+This separation was intentional. The present repository focuses on the **architecture artifacts**, **bibliographic methodology**, and **supporting documentation** for the article, while the external POC repository concentrates on the implementation and experimental artifacts associated with the evaluation scenario.
 
-**Purpose:** preserve the input and cleaned dataset used before thematic classification and ranking.
+## How this repository complements the paper
 
-Typical contents:
-- merged spreadsheets;
-- normalized spreadsheets;
-- short methodological notes such as `Passo a passo da metodologia.txt`.
+The article presents the main scientific argument, methodological synthesis, and analytical results. This repository complements that narrative by making available the supporting artifacts that are difficult to fully include in the paper due to page constraints, especially:
 
-### `03_scripts/`
-Stores the scripts used for consolidation, enrichment, scoring, and annotation.
+* the editable and high-resolution architecture materials;
+* the exact search strings and database exports;
+* the corpus-processing pipeline;
+* the intermediate methodological outputs used during corpus consolidation and prioritization;
+* additional documentation related to citation and reproducibility.
 
-**Purpose:** document the computational pipeline.
+In this sense, the repository functions as a companion resource for transparency and inspection rather than as a replacement for the article itself.
 
-Typical contents:
-- R scripts for consolidation and ranking;
-- Python script for fuzzy SJR completion;
-- notes on thematic cluster assignment.
+## Where to start
 
-### `04_enrichment_and_ranking/`
-Stores the staged outputs of SJR enrichment, fuzzy matching, ranking generation, relevance labeling, and selected-paper analysis.
+Readers interested in specific aspects of the work may begin with:
 
-**Purpose:** preserve the full ranking lineage instead of only the final file.
-
-### `05_bibliometrix_reports/`
-Stores figures, text exports, and compressed outputs generated by Biblioshiny/Bibliometrix.
-
-**Purpose:** preserve the descriptive and relational bibliometric evidence cited in the study.
-
-### `06_protocol_summary/`
-Stores a concise protocol document, ideally in Markdown, summarizing the retrieval, screening, consolidation, clustering, enrichment, and ranking steps.
-
-**Purpose:** provide a reviewer-friendly summary without forcing the reader to inspect all raw files.
-
-## Suggested `methodology/README.md`
-
-The `methodology/README.md` file can summarize the workflow in six steps:
-
-1. **Search design**: build database-specific strings for Scopus and Web of Science, covering threats, e-voting, result transmission, and threat modeling methods. fileciteturn4file0
-2. **Record export**: export Scopus in CSV and Web of Science in Plain Text, preserving title, abstract, keywords, year, source, citations, DOI, and ISSN whenever available. fileciteturn4file0
-3. **Corpus consolidation**: merge and normalize records in R with bibliometrix, remove duplicates, and discard incomplete entries. fileciteturn4file0
-4. **Thematic clustering**: assign each document to one thematic cluster based on bibliometrix outputs and inspection of title, abstract, and keywords. fileciteturn4file4
-5. **Journal-quality enrichment**: attach SJR values using ISSN matching, source-title comparison, and fuzzy matching when needed. fileciteturn4file4
-6. **Prioritization and selection**: compute SSS and TAPS, generate cluster-wise rankings, and assign relevance groups to guide deeper qualitative reading. fileciteturn4file2turn4file4
-
-## Minimal citation note for the article
-
-If this repository is cited in the paper, a short note such as the following is sufficient:
-
-> Supplementary materials for architecture readability and bibliometric methodology transparency are publicly available in this repository.
-
-## Recommended next files to create
-
-To make the repository immediately usable, the next files worth adding are:
-
-- `architecture/README.md`
-- `methodology/README.md`
-- `methodology/06_protocol_summary/methodology_protocol.md`
-- `docs/citation-and-reproducibility-notes.md`
-
-## Suggested `methodology_protocol.md` outline
-
-```text
-# Methodology Protocol
-
-## Objective
-## Databases
-## Time span
-## Search dimensions
-## Search strings
-## Export procedure
-## Consolidation and deduplication
-## Thematic clustering
-## SJR enrichment
-## SSS and TAPS ranking
-## Relevance groups
-## Files and scripts
-## Reproducibility notes
-```
+* [`architecture/README.md`](architecture/README.md) for the architectural figure and its scope;
+* [`methodology/README.md`](methodology/README.md) for the methodological protocol and bibliographic workflow;
+* [`docs/article-links.md`](docs/article-links.md) and [`docs/citation-and-reproducibility-notes.md`](docs/citation-and-reproducibility-notes.md) for supporting documentation;
+* the external [POC repository](https://github.com/reinermaia/poc-stride-electoral/tree/main) for the empirical application artifacts.
 
 ## Final note
 
-This repository is not only a storage location for supplementary files. It is part of the study's **reproducibility strategy**. The architectural files improve figure readability, the methodology folders document how the literature corpus was built and prioritized, and the POC artifacts provide a concrete bridge between the STRIDE catalog proposed in the article and its empirical exercise in a reference transmission scenario.
+This repository is part of the study's reproducibility and transparency strategy. It was organized to make the supplementary materials easier to inspect, reuse academically where appropriate, and reference alongside the article.
+
+```
+```
