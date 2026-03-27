@@ -1,0 +1,14 @@
+Passo a passo da metodologia
+1) Definição das strings de pesquisa para as bases Web Of Science e Scopus
+2) Extração das informações: Scopus no formato CSV e WoS no formato Plain Text
+3) Consolidação dos dados por meio do pacote bibliometrix da linguagem R, resultando em 681 fontes.
+4) Importação no Biblioshiny para geração de dados estatísticos
+5) Normalização das referencias, por meio da funcionalidade Reference Matching do Bibliometrix
+
+
+Clusters temáticos
+
+threat modeling	7.495	32.711	3	1	1169
+blockchain	4.498	36.781	1	3	536
+risk assessment	9.369	40.807	4	4	703
+network security
