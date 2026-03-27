@@ -1,0 +1,1726 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Ullah, S
+   Jiangbin, Z
+   Din, N
+   Hussain, MT
+   Ullah, F
+   Yousaf, M
+AF Ullah, Shamsher
+   Jiangbin, Zheng
+   Din, Nizamud
+   Hussain, Muhammad Tanveer
+   Ullah, Farhan
+   Yousaf, Mahwish
+TI Elliptic Curve Cryptography; Applications, challenges, recent advances,
+   and future trends: A comprehensive survey
+SO COMPUTER SCIENCE REVIEW
+LA English
+DT Review
+DE Elliptic Curves; Elliptic Curve Cryptography; Elliptic curve digital
+   signature; Diffie-Hellman key exchange protocol; Bi-linearity; Identity
+   based encryption; Attribute -based encryption; Discrete Logarithm
+   Problem
+ID PROXY SIGNCRYPTION SCHEME; IDENTITY-BASED ENCRYPTION; PERFORMANCE
+   EVALUATION; DIGITAL SIGNATURE; EFFICIENT BLIND; SECURITY; CRYPTANALYSIS;
+   SYSTEM
+AB Elliptic Curve (EC) is the most recent and advanced technique of Elliptic Curve Cryptography (ECC). EC is often used to improve the security of open communication networks and to let specific persons with confirmed identities into the Modern Digital Era (MDE). Users of MDE make use of many technologies, such as social media, the cloud, and the IoT industry, among others. No matter what tool the users are using, the whole environment has to be able to keep their security and privacy preserved.The study of cryptography is required because unsecure networks make data transmission and the transfer of information susceptible to data theft and attack via an open channel.This makes it necessary to learn cryptography. The art of encrypting documents and communications using keys in such a way that only the individuals who are intended to receive them are able to decode and process them is referred to as cryptography. A digital signature, cryptographic data integrity, and authentication method all rely on the address of the receiver and the sender in addition to mathematical operations to find the signature. During the process of signature and verification, the solution that was presented is compared with the technique that is currently being used by ECDSA in order to illustrate the differences that exist between the two processes.This comprehensive survey of EC seeks to thoroughly investigate many scientific concepts, state-of-the-art, and innovative methodologies and implementations. This work will be useful for academics, who are interested in further analysis. Use and development of EC based schemes for cloud computing, e-health, and e-voting, is more secure as compared to RSA, and Diffie-Hellman schemes. In this comprehensive study, we claim that the adoption of EC methods in distributed computing and asynchronous networking provides significant benefits in distributed computing and interdependent networking.(c) 2022 Elsevier Inc. All rights reserved.
+C1 [Ullah, Shamsher; Jiangbin, Zheng; Ullah, Farhan] Northwestern Polytech Univ, Sch Software, Xian 710072, Shaanxi, Peoples R China.
+   [Ullah, Shamsher] Univ Management & Technol UMT, Knowledge Units Syst & Technol KUST, Sialkot 51040, Pakistan.
+   [Din, Nizamud] Univ Chitral, Dept Comp Sci, Chitral 17251, Pakistan.
+   [Hussain, Muhammad Tanveer] Univ Management & Technol UMT, Dept Math, Lahore 54000, Pakistan.
+   [Yousaf, Mahwish] Univ Sci & Technol China USTC, Sch Comp Sci & Technol, Hefei 230000, Anhui, Peoples R China.
+C3 Northwestern Polytechnical University; University of Management &
+   Technology (UMT); University of Management & Technology (UMT); Chinese
+   Academy of Sciences; University of Science & Technology of China, CAS
+RP Jiangbin, Z (corresponding author), Northwestern Polytech Univ, Sch Software, Xian 710072, Shaanxi, Peoples R China.
+EM shamsherullah@nwpu.edu.cn; zhengjb@nwpu.edu.cn; nizam@uoch.edu.pk;
+   tanveerhussain@umt.edu.pk; farhan@nwpu.edu.cn; mahwish@mail.ustc.edu.cn
+RI Ullah, Shamsher/GXN-2692-2022; Din, Nizamud/AEH-6087-2022; Ullah,
+   Farhan/IUM-8973-2023; yousaf, mahwish/ABE-6638-2021
+OI Ullah, Shaher/0009-0003-6399-8461; Hussain, Muhammad
+   Tanveer/0000-0003-0884-3056; Ullah, Farhan/0000-0002-1030-1275; Zheng,
+   Jiangbin/0009-0004-2936-2870; 
+CR Abdalla M, 2008, J CRYPTOL, V21, P350, DOI 10.1007/s00145-007-9006-6
+   Abdelfatah R., 2017, INT J COMPUT APPL, V165, P36
+   Alexa A., 2016, ALEXA TOP 500 GLOBAL
+   [Anonymous], 2010, International Journal of Computer Science Issues (IJCSI)
+   [Anonymous], 2004, ELLIPTIC CURVE CRYPT, P1
+   [Anonymous], 2013, INT J COMPUT APPL
+   Awasthi AK, 2005, arXiv
+   Bailey D.V., 2009, CERTICOM CHALLENGES
+   Banerjee S., 2018, INT C INTELLIGENT SY, P600
+   Bao Jiaxu, 2022, 2022 7 INT C SOC SCI, P984
+   Bao L, 2015, INFORM SCIENCES, V324, P197, DOI 10.1016/j.ins.2015.06.049
+   Barnes A., 2016, Digital Voting with the use of Blockchain Technology
+   Barreto PSLM, 2006, LECT NOTES COMPUT SC, V3897, P319
+   Barreto PSLM, 2005, LECT NOTES COMPUT SC, V3788, P515
+   Benssalah M, 2016, PROCEEDINGS OF THE 2016 SAI COMPUTING CONFERENCE (SAI), P1076, DOI 10.1109/SAI.2016.7556111
+   Bethencourt J, 2007, P IEEE S SECUR PRIV, P321, DOI 10.1109/sp.2007.11
+   Biham E, 1998, J CRYPTOL, V11, P45, DOI 10.1007/s001459900034
+   Blömer J, 2015, 2015 WORKSHOP ON FAULT DIAGNOSIS AND TOLERANCE IN CRYPTOGRAPHY (FDTC), P71, DOI 10.1109/FDTC.2015.17
+   Boldyreva A, 2008, CCS'08: PROCEEDINGS OF THE 15TH ACM CONFERENCE ON COMPUTER AND COMMUNICATIONS SECURITY, P417
+   Boneh D, 2005, LECT NOTES COMPUT SC, V3621, P258
+   Boneh D, 2005, LECT NOTES COMPUT SC, V3494, P440, DOI 10.1007/11426639_26
+   Boneh D, 2004, LECT NOTES COMPUT SC, V3152, P41, DOI 10.1007/978-3-540-28628-8_3
+   Boneh D, 2004, LECT NOTES COMPUT SC, V3027, P506
+   Boneh D, 2004, LECT NOTES COMPUT SC, V3027, P223
+   Boneh D, 2003, SIAM J COMPUT, V32, P586, DOI 10.1137/S0097539701398521
+   Boneh D, 2004, LECT NOTES COMPUT SC, V3027, P56
+   Boyen Xavier., 2003, LNCS, V2729, P383, DOI [DOI 10.1007/978-3-540-45146-423, 10.1007/978-3-540-45146-4_23, 10.1007/ 978-3-540-45146-4 23]
+   Brickell E. F., 1983, Advances in Cryptology, Proceedings of Crypto 82, P51
+   BRICKELL EF, 1990, LECT NOTES COMPUT SC, V435, P368
+   Burrows J.H., 1994, FEDERAL INF PROCESS, V186, P1
+   Bütün I, 2013, TURK J ELECTR ENG CO, V21, P945, DOI 10.3906/elk-1102-1051
+   Caelli WJ, 1999, COMPUT SECUR, V18, P47, DOI 10.1016/S0167-4048(99)80008-X
+   Canetti R, 2007, CCS'07: PROCEEDINGS OF THE 14TH ACM CONFERENCE ON COMPUTER AND COMMUNICATIONS SECURITY, P185
+   Cao ZG, 2014, COMM COM INF SC, V490, P73
+   Chang L., 2002, J COMPUT RES DEV
+   Chaudhry SA, 2016, ELECTRON COMMER RES, V16, P113, DOI 10.1007/s10660-015-9192-5
+   Chauhan S., 2016, INT RES J SCI ENG TE
+   Chaum D., 1983, Advances in Cryptology, Proceedings of Crypto 82, P199
+   Chen LQ, 2005, LECT NOTES COMPUT SC, V3386, P362
+   Cheon JH, 2010, J CRYPTOL, V23, P457, DOI 10.1007/s00145-009-9047-0
+   Cheung L, 2007, CCS'07: PROCEEDINGS OF THE 14TH ACM CONFERENCE ON COMPUTER AND COMMUNICATIONS SECURITY, P456
+   Chow SSM, 2004, LECT NOTES COMPUT SC, V2971, P352
+   Chun-chang F., 2007, J SW U NATL
+   Cocks C., 2001, Proceedings of the 8th IMA International Conference on Cryptography and Coding, P360, DOI [10.1007/3-540-45325-332, DOI 10.1007/3-540-45325-3]
+   Curtmola R, 2011, J COMPUT SECUR, V19, P895, DOI 10.3233/JCS-2011-0426
+   Dan-yu F., 2006, J CHONGQING U POSTS
+   Dent AW, 2008, INT J INF SECUR, V7, P349, DOI 10.1007/s10207-008-0055-0
+   Deyani R.A., 2019, 7 INT C CYBER IT SER
+   Dodis Y, 2005, LECT NOTES COMPUT SC, V3386, P416
+   Dottling N, 2017, LECT NOTES COMPUT SC, V10401, P537, DOI 10.1007/978-3-319-63688-7_18
+   Dua A, 2016, INT CONF COMP INFO, P52
+   Elbaz R, 2007, Arxiv, DOI arXiv:0710.4803
+   ELGAMAL T, 1985, IEEE T INFORM THEORY, V31, P469, DOI 10.1109/TIT.1985.1057074
+   Elkamchouchi H. M., 2013, INT J INF TECHNOL MO, V1, P7
+   Elkamchouchi H, 2009, IEEE SYS MAN CYBERN, P5123, DOI 10.1109/ICSMC.2009.5346018
+   Elkamchouchi HM, 2011, INT J INTELL ENG INF, V1, P309, DOI 10.1504/IJIEI.2011.044100
+   Elminaaml DSA, 2008, INT J COMPUT SCI NET, V8, P280
+   Engel D, 2009, MULTIMEDIA SYST, V15, P243, DOI 10.1007/s00530-008-0150-0
+   Fan AW, 2010, MECHANICAL ENGINEERING AND GREEN MANUFACTURING, PTS 1 AND 2, P1024, DOI 10.4028/www.scientific.net/AMM.34-35.1024
+   Fan CI, 2000, COMPUT COMMUN, V23, P1677, DOI 10.1016/S0140-3664(00)00254-1
+   Fang-wei L., 2008, J CHONGQING U POSTS
+   Gamage C., 1999, P COMP SCI 22 AUSTR, P420
+   Gao TG, 2008, PHYS LETT A, V372, P394, DOI 10.1016/j.physleta.2007.07.040
+   Gayoso Martinez V., 2010, A survey of the elliptic curve integrated encryption scheme
+   Gorbunov S, 2015, J ACM, V62, DOI 10.1145/2824233
+   Gorbunov S, 2013, STOC'13: PROCEEDINGS OF THE 2013 ACM SYMPOSIUM ON THEORY OF COMPUTING, P545
+   Goyal TK, 2016, 2016 INTERNATIONAL CONFERENCE ON ADVANCES IN COMPUTING, COMMUNICATIONS AND INFORMATICS (ICACCI), P1725, DOI 10.1109/ICACCI.2016.7732296
+   Goyal V., 2006, P 2006 INT C PRIVACY, P1, DOI DOI 10.1145/1180405.1180418
+   Han Y, 2004, P 3 INT C INF SEC, P216, DOI DOI 10.1145/1046290.1046336
+   Hanifatunnisa R, 2017, INT C TELECOMMUN SYS
+   Hankerson D., 2004, GUIDE ELLIPTIC CURVE, VI, P1
+   Harkanson R., 2017, P 12 ANN C CYBER INF, P6
+   Harn Lein, 2016, International Journal of Network Security, V18, P710
+   Hayouni H, 2014, 2014 7TH INTERNATIONAL CONFERENCE ON ADVANCED SOFTWARE ENGINEERING AND ITS APPLICATIONS (ASEA), P39, DOI 10.1109/ASEA.2014.14
+   He DB, 2017, SOFT COMPUT, V21, P6801, DOI 10.1007/s00500-016-2231-x
+   He DB, 2016, IET COMMUN, V10, P1795, DOI 10.1049/iet-com.2016.0091
+   Heiberg S, 2014, 2014 6TH INTERNATIONAL CONFERENCE ON ELECTRONIC VOTING: VERIFYING THE VOTE (EVOTE)
+   Henson M, 2014, ACM COMPUT SURV, V46, DOI 10.1145/2566673
+   HOORNAERT F, 1988, LECT NOTES COMPUT SC, V330, P257
+   HOWARD R, 1987, INFORM AGE, V9, P204
+   Jeng F.-G., 2009, 2009 5 INT JOINT C I, P2044
+   Jindal P, 2015, PROCEDIA COMPUT SCI, V46, P697, DOI 10.1016/j.procs.2015.02.129
+   Johnson D., 2001, International Journal of Information Security, V1, P36, DOI 10.1007/s102070100002
+   Kai F., 2016, SEARCHABLE ENCRYPTIO
+   KALISKI B, 1993, IEEE MICRO, V13, P74, DOI 10.1109/40.248057
+   Karale S.N., 2015, 2015 INT C INN INF E, P1
+   Kavya R., 2018, IOP Conference Series: Materials Science and Engineering, V396, DOI [10.1088/1757-899x/396/1/012028, 10.1088/1757-899X/396/1/012028]
+   Ke-gui W., 2005, J PINGDINGSHAN I TEC
+   Khasawneh S, 2021, T EMERG TELECOMMUN T, V32, DOI 10.1002/ett.4102
+   Kihidis Anastasios, 2010, Proceedings of the 14th Panhellenic Conference on Informatics (PCI 2010), P101, DOI 10.1109/PCI.2010.48
+   Kirubakaramoorthi R, 2015, INDIAN J SCI TECHNOL, V8, DOI [10.17485/ijst/2015/v8i21/79144, 10.17485/ijst/2015/v8i21/79144, DOI 10.17485/IJST/2015/V8I21/79144]
+   KOBLITZ N, 1987, MATH COMPUT, V48, P203, DOI 10.1090/S0025-5718-1987-0866109-5
+   KOCHANSKI M, 1986, LECT NOTES COMPUT SC, V218, P350
+   Kouicem DE, 2018, COMPUT NETW, V141, P199, DOI 10.1016/j.comnet.2018.03.012
+   Krishnamoorthy R., 2012, 2012 INT C EMERGING, P280
+   Kumari M, 2017, 3D RES, V8, DOI 10.1007/s13319-017-0148-5
+   Lai JZ, 2013, IEEE T INF FOREN SEC, V8, P1343, DOI 10.1109/TIFS.2013.2271848
+   Lei C., 2013, J CHONGQING U SCI TE
+   Lenstra AK, 2001, J CRYPTOL, V14, P255, DOI 10.1007/s00145-001-0009-4
+   Lewko A, 2011, LECT NOTES COMPUT SC, V6632, P547, DOI 10.1007/978-3-642-20465-4_30
+   Lewko A, 2010, LECT NOTES COMPUT SC, V6110, P62, DOI 10.1007/978-3-642-13190-5_4
+   Li J, 2015, IEEE T COMPUT, V64, P425, DOI 10.1109/TC.2013.208
+   Li M, 2013, IEEE T PARALL DISTR, V24, P131, DOI 10.1109/TPDS.2012.97
+   Liu FW, 2010, COMPUT SECUR, V29, P3, DOI 10.1016/j.cose.2009.06.004
+   Lo NW, 2014, J APPL MATH, DOI 10.1155/2014/454393
+   Loeffler D., 2004, NOTES 20045 PART 3 C, P1
+   Mahboob T, 2016, 2016 1ST INTERNATIONAL CONFERENCE ON INFORMATION TECHNOLOGY, INFORMATION SYSTEMS AND ELECTRICAL ENGINEERING (ICITISEE), P7, DOI 10.1109/ICITISEE.2016.7803038
+   Mandal A. K., 2012, 2012 IEEE Students' Conference on Electrical, Electronics and Computer Science (SCEECS 2012), DOI 10.1109/SCEECS.2012.6184991
+   Markan R., 2013, INT J ADV RES COMPUT
+   Menezes A., 1995, IEEE P1363 PART 4 EL
+   Meter C, 2017, Arxiv, DOI arXiv:1702.02566
+   MILLER VS, 1986, LECT NOTES COMPUT SC, V218, P417, DOI 10.1007/3-540-39799-x_31
+   Ming Y, 2015, SECUR COMMUN NETW, V8, P1431, DOI 10.1002/sec.1092
+   Mishra P., 2013, INT J ENG INNOV TECH
+   Mitsunari S, 2002, IEICE T FUND ELECTR, VE85A, P481
+   Mohd BJ, 2015, J NETW COMPUT APPL, V58, P73, DOI 10.1016/j.jnca.2015.09.001
+   Mushtaq MF, 2017, INT J ADV COMPUT SC, V8, P333, DOI 10.14569/ijacsa.2017.081141
+   Nadeem A., 2005, Information and Communication Technologies, ICICT, V2005, P84, DOI DOI 10.1109/ICICT.2005.1598556
+   Naidu KK, 2020, TEST Engineering & Management, V83, P7295
+   Nayak B., 2014, SIGNCRYPTION SCHEMES
+   Nayak SK, 2013, PROCEEDINGS OF 2013 INTERNATIONAL CONFERENCE ON CIRCUITS, POWER AND COMPUTING TECHNOLOGIES (ICCPCT 2013), P829, DOI 10.1109/ICCPCT.2013.6528937
+   Nechvatal J, 2001, J RES NATL INST STAN, V106, P511, DOI 10.6028/jres.106.023
+   Nie T., 2009, P IEEE REG 10 C TENC TENCON 2009 2009 IEE, P1, DOI DOI 10.1109/ICIECS.2009.5364290
+   Nikam PD, 2015, INT CONF COMPUT INTE, P1125, DOI 10.1109/CICN.2015.221
+   Nyberg K., 1996, Designs, Codes and Cryptography, V7, P61, DOI 10.1007/BF00125076
+   Nyberg K., 1995, Advances in Cryptology - EUROCRYPT '94. Workshop on the Theory and Application of Cryptographic Techniques. Proceedings, P182, DOI 10.1007/BFb0053434
+   Nyberg K., 1993, PROC ACM C COMPUTER, P58, DOI [10.1145/168588.168595, DOI 10.1145/168588.168595]
+   Okamoto T, 2006, LECT NOTES COMPUT SC, V3876, P80
+   Okamoto T, 2010, LECT NOTES COMPUT SC, V6223, P191, DOI 10.1007/978-3-642-14623-7_11
+   Okuhata R., 2011, 2011 S CRYPTOGRAPHY
+   Ostrovsky R, 2007, CCS'07: PROCEEDINGS OF THE 14TH ACM CONFERENCE ON COMPUTER AND COMMUNICATIONS SECURITY, P195, DOI 10.1145/1315245.1315270
+   Pan WQ, 2017, IEEE T INF FOREN SEC, V12, P111, DOI 10.1109/TIFS.2016.2603974
+   Paryasto MW, 2009, INTERNETWORKING INDO, V1, P29
+   Patil A., 2013, INT J SCI TECHNOL RE, V2, P61
+   Patil M., 2013, INT J ADV RES TECHNO
+   Peter S, 2010, IEEE T DEPEND SECURE, V7, P20, DOI 10.1109/TDSC.2008.23
+   Preneel B., 1993, THESIS
+   Puteaux P, 2021, J VIS COMMUN IMAGE R, V77, DOI 10.1016/j.jvcir.2021.103085
+   Qing-jun P., 2006, J HUNAN I SCI TECHNO
+   Qiuxia Zhang, 2011, 2011 2nd International Conference on Artificial Intelligence, Management Science and Electronic Commerce (AIMSEC 2011), P1689, DOI 10.1109/AIMSEC.2011.6010590
+   Rabin MichaelO., 1979, DIGITALIZED SIGNATUR
+   Reddy AG, 2016, IEEE ACCESS, V4, P4394, DOI 10.1109/ACCESS.2016.2596292
+   Rekha A., 2014, INT J RES ENG TECHNO, V3, P131
+   RIVEST RL, 1978, COMMUN ACM, V21, P120, DOI [10.1145/359340.359342, 10.1145/357980.358017]
+   Ryotaro H., 2014, REENCRYPTION KEY GEN
+   Sahai A, 2005, LECT NOTES COMPUT SC, V3494, P457, DOI 10.1007/11426639_27
+   Sahebi G, 2016, 2016 INTERNATIONAL CONFERENCE ON HIGH PERFORMANCE COMPUTING & SIMULATION (HPCS 2016), P492, DOI 10.1109/HPCSim.2016.7568375
+   Sankpal PR, 2014, 2014 FIFTH INTERNATIONAL CONFERENCE ON SIGNAL AND IMAGE PROCESSING (ICSIP 2014), P102, DOI 10.1109/ICSIP.2014.80
+   Schnorr C. P., 1991, Journal of Cryptology, V4, P161, DOI 10.1007/BF00196725
+   Shah JLY, 2011, Arxiv, DOI arXiv:1104.0800
+   Shamir A., 1984, PROC CRYPTO, V196, P47
+   Shao ZH, 2000, ELECTRON LETT, V36, P1372, DOI 10.1049/el:20001010
+   Shevchuk O, 2020, Introduction to Elliptic Curve Cryptography
+   ShiGuo Jin, 2014, Applied Mechanics and Materials, V685, P579, DOI 10.4028/www.scientific.net/AMM.685.579
+   Shivraj VL, 2015, 2015 5TH NATIONAL SYMPOSIUM ON INFORMATION TECHNOLOGY: TOWARDS NEW SMART WORLD (NSITNSW)
+   Siddaramanna S, 2022, CONCURR COMP-PRACT E, V34, DOI 10.1002/cpe.6849
+   Silva NBF, 2016, J NETW COMPUT APPL, V60, P130, DOI 10.1016/j.jnca.2015.10.007
+   Song DXD, 2000, P IEEE S SECUR PRIV, P44, DOI 10.1109/SECPRI.2000.848445
+   Stütz T, 2012, IEEE T CIRC SYST VID, V22, P325, DOI 10.1109/TCSVT.2011.2162290
+   Thambiraja E., 2012, INT J ADV RES COMPUT
+   Tiwari HD, 2018, ETRI J, V40, P396, DOI 10.4218/etrij.2017-0220
+   Toorani M., 2010, ARXIV
+   Toradmalle D, 2020, Indian Journal of Computer Science and Engineering, V11, P405, DOI 10.21817/indjcse/2020/v11i4/201104299
+   Turner S., 2010, 5751 EFC
+   Tysowski PK, 2011, Cryptology ePrint Archive, V2011, P668
+   Tzeng SF, 2004, COMPUT STAND INTER, V26, P61, DOI 10.1016/S0920-5489(03)00069-2
+   Ullah R, 2014, 2014 CONFERENCE ON INFORMATION ASSURANCE AND CYBER SECURITY (CIACS), P51, DOI 10.1109/CIACS.2014.6861332
+   Ullah S, 2021, PEER PEER NETW APPL, V14, P917, DOI 10.1007/s12083-020-01044-8
+   Usman M, 2022, ELECTRONICS-SWITZ, V11, DOI 10.3390/electronics11071026
+   van Rijswijk-Deij R, 2017, IEEE ACM T NETWORK, V25, P738, DOI 10.1109/TNET.2016.2605767
+   Velan P, 2015, INT J NETW MANAG, V25, P355, DOI 10.1002/nem.1901
+   Vishnubhatla Sasank Venkata, 2015, 2015 Annual Global Online Conference on Information and Computer Technology (GOCICT). Proceedings, P51, DOI 10.1109/GOCICT.2015.19
+   Waheed A, 2021, MEHRAN UNIV RES J EN, V40, P314, DOI 10.22581/muet1982.2102.06
+   Waheed A, 2020, IEEE ACCESS, V8, P131188, DOI 10.1109/ACCESS.2020.3009351
+   Wang CF, 2017, INF SECUR J, V26, P136, DOI 10.1080/19393555.2017.1319523
+   Wang D., 2014, MSC INF SECUR, P1
+   Wang Y., 2010, 2010 2 IEEE INT C IN, P455
+   Waters B, 2011, LECT NOTES COMPUT SC, V6571, P53, DOI 10.1007/978-3-642-19379-8_4
+   Xia C., 2012, 2012 INT C COMPUTER, P1678
+   Xu S.-B., 2009, SIGNCRYPTION SCHEME
+   Yadav AK, 2021, 2021 IEEE INTERNATIONAL CONFERENCE ON COMPUTING, COMMUNICATION, AND INTELLIGENT SYSTEMS (ICCCIS), P256, DOI 10.1109/ICCCIS51004.2021.9397166
+   Yegireddi R., 2016, P INT C ICT BUS IND P 2016 INT C ICT BUS, V1, P1
+   Yong L., 2006, J CHONGQING U POSTS
+   Yoshino M., 2011, SEARCHABLE ENCRYPTIO
+   Yu HF, 2022, IEEE SYST J, V16, P2347, DOI 10.1109/JSYST.2021.3096531
+   Yu Xiuying, 2008, Wuhan University Journal of Natural Sciences, V13, P622, DOI 10.1007/s11859-008-0605-3
+   Yun W., 2012, 2012 INT C COMP SCI, V1, P349
+   Yun-jiang X., 2010, MICROCOMPUT INF
+   Zahan A, 2020, International Journal of Advanced Technology and Engineering Exploration, V7, P11, DOI [10.19101/ijatee.2019.650070, 10.19101/IJATEE.2019.650070]
+   Zhang Ping, 2022, Wirel Commun Mob Comput, V2022
+   Zhang QL, 2018, CYBERSECURITY, V1, DOI 10.1186/s42400-018-0005-8
+   Zhang R, 2018, IEEE T SERV COMPUT, V11, P978, DOI 10.1109/TSC.2017.2762296
+   Zhang Yinqian., 2012, Proceedings of the 2012 ACM conference on Computer and communications security, CCS '12, P305, DOI [DOI 10.1145/2382196.2382230, 10.1145/2382196.2382230]
+   Zheng YL, 1997, LECT NOTES COMPUT SC, V1294, P165
+   Zheng YL, 1998, INFORM PROCESS LETT, V68, P227, DOI 10.1016/S0020-0190(98)00167-7
+   Zhi-bin L., 2008, COMPUT ENG
+NR 196
+TC 90
+Z9 105
+U1 4
+U2 70
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 1574-0137
+EI 1876-7745
+J9 COMPUT SCI REV
+JI Comput. Sci. Rev.
+PD FEB
+PY 2023
+VL 47
+AR 100530
+DI 10.1016/j.cosrev.2022.100530
+EA DEC 2022
+PG 28
+WC Computer Science, Information Systems; Computer Science, Software
+   Engineering; Computer Science, Theory & Methods
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Computer Science
+GA 8A2TX
+UT WOS:000916097300001
+DA 2025-11-20
+ER
+
+PT J
+AU Panja, S
+   Roy, B
+AF Panja, Somnath
+   Roy, Bimal
+TI A secure end-to-end verifiable e-voting system using blockchain and
+   cloud
+SO JOURNAL OF INFORMATION SECURITY AND APPLICATIONS
+LA English
+DT Article
+DE E-voting; Blockchain; Ethereum; Direct-Recording Electronic;
+   Authentication; Non-interactive zero-knowledge proof; End-to-end
+   verifiable; Secure multi-party computation
+ID NETWORK
+AB We propose a cryptographic technique for an authenticated, end-to-end verifiable and secret ballot election. Currently, almost all verifiable e-voting systems require trusted authorities to perform the tallying process except for the DRE-i and DRE-ip systems. We have shown a weakness of the DRE-ip system and proposed a solution. We propose a secure and verifiable voter registration and authentication mechanism. The proposed scheme prevents ballot stuffing attack. We have modified the DRE-ip system so that no adversary can create and post a valid ballot on the public bulletin board without detection. We propose a method for publishing the final tally without revealing the tally from individual Direct-Recording Electronic (DRE) machines using secure multi-party computation and non-interactive zero-knowledge (NIZK) proof. We propose two methods to store these ballots using blockchain and cloud server. To the best of our knowledge, it is the first end-to end verifiable DRE based e-voting system using blockchain. We provide security proofs to prove the security properties of the proposed scheme. We prove that the efficient NIZK proof proposed by Lin et al. in APSIPA ASC 2019 is not correct since it does not satisfy the witness indistinguishability property of a zero-knowledge proof. We introduce an improved NIZK proof that boosts the efficiency of the system. The experimental data obtained from our tests show the protocol's potential for real-world deployment.
+C1 [Panja, Somnath; Roy, Bimal] Indian Stat Inst, Appl Stat Unit, Kolkata 700108, India.
+C3 Indian Statistical Institute; Indian Statistical Institute Kolkata
+RP Panja, S (corresponding author), Indian Stat Inst, Appl Stat Unit, Kolkata 700108, India.
+EM somn.math2007@gmail.com; bimal@isical.ac.in
+FU Royal Society [ICA/R1/180226]
+FX This research was partially supported by the Royal Society under Grant
+   ICA/R1/180226. The authors would like to thank Dr. Feng Hao, Professor
+   of Security Engineering, University of Warwick, UK, for his advice and
+   comments during the course of this research.
+CR Adida B, 2006, P WPES 2006 ACM WORK, P29
+   Adida Ben., 2008, USENIX Security Symposium, V17, P335
+   Ann Cavoukian, BIOMETRIC ENCRYPTION
+   [Anonymous], 2016, COINDESK
+   [Anonymous], 1987, Ph.D. thesis
+   [Anonymous], 2016, TIVI VOTING
+   Back Adam, 2015, HASHCASH DENIAL SERV
+   Bell Susan, 2013, USENIX Journal of Election Technology and Systems.JETS, P18
+   Bellare M., 1993, CCS 93, P62, DOI DOI 10.1145/168588.168596
+   Bellare Mihir., 1992, CRYPTO VOLUME 740 LE, V740, P390, DOI [10.1007/3-540-48071-428, DOI 10.1007/3-540-48071-428]
+   Ben Adida, 2009, USENIXACCURATE ELECT
+   Ben-Nun Jonathan., 2012, 5th International Conference on Electronic Voting 2012, VP-205 of, P315
+   Ben-Or M., 1988, Proceedings of the Twentieth Annual ACM Symposium on Theory of Computing, P1, DOI 10.1145/62212.62213
+   Benaloh J., 1994, Proceedings of the Twenty-Sixth Annual ACM Symposium on the Theory of Computing, P544, DOI 10.1145/195058.195407
+   Benaloh J., 2007, Proceedings of the USENIX Workshop on Accurate Electronic Voting Technology, P14
+   Benet J., 2017, IPFS - content addressed, versioned, p2p file system draft 3
+   Bohli JM, 2007, LECT NOTES COMPUT SC, V4896, P111, DOI 10.1007/978-3-540-77493-8_10
+   Boucher P., 2016, What if Blockchain Technology Revolutionised Voting?
+   Boulgouris N.V., 2010, Biometrics:Theory, Methods, and Applications, V1, P655
+   Camenisch J, 1997, LECT NOTES COMPUT SC, V1294, P410
+   Carback Richard., 2010, 19th USENIX Security Symposium, P291
+   Casino F, 2019, TELEMAT INFORM, V36, P55, DOI 10.1016/j.tele.2018.11.006
+   Chaum D, 2004, IEEE SECUR PRIV, V2, P38, DOI 10.1109/MSECP.2004.1264852
+   Chaum D, 2009, IEEE T INF FOREN SEC, V4, P611, DOI 10.1109/TIFS.2009.2034919
+   CHAUM DL, 1981, COMMUN ACM, V24, P84, DOI 10.1145/358549.358563
+   Chondros N, 2016, INT CON DISTR COMP S, P711, DOI 10.1109/ICDCS.2016.56
+   Colin Schmidt Gregory J, 1996, US Patent, Patent No. [5, 541, 994, 5541994]
+   Cramer R., 1994, Advances in Cryptology - CRYPTO '94. 14th Annual International Cryptology Conference. Proceedings, P174
+   Culnane C, 2015, ACM T INFORM SYST SE, V18, DOI 10.1145/2746338
+   Culnane C, 2014, P IEEE CSFW, P169, DOI 10.1109/CSF.2014.20
+   DIFFIE W, 1976, IEEE T INFORM THEORY, V22, P644, DOI 10.1109/TIT.1976.1055638
+   Douglas, 2002, CRYPTOGRAPHY THEORY
+   Eric Lazarus, 2011, MSRTR2011115
+   Fan K, 2018, IET COMMUN, V12, P527, DOI 10.1049/iet-com.2017.0619
+   Feng H, 2018, IEEE ACM T NETWORK, V26, P2118, DOI 10.1109/TNET.2018.2865171
+   FIAT A, 1987, LECT NOTES COMPUT SC, V263, P186, DOI 10.1007/3-540-47721-7_12
+   Gennaro R, 2002, LECT NOTES COMPUT SC, V2442, P178
+   Goldreich O, 1998, MANUSCRIPT PRELIM VE
+   Goldreich Oded., 1987, STOC, P218, DOI [DOI 10.1145/28395.28420, 10.1145/28395.28420]
+   GOLDWASSER S, 1989, SIAM J COMPUT, V18, P186, DOI 10.1137/0218012
+   Hao F, 2015, IEEE T DEPENDABLE SE, P1
+   Hao F., 2016, Real-world Electronic Voting: Design, Analysis and Deployment. Series in Security
+   Hao F., 2014, 2014 Electronic Voting Technology Workshop/Workshop on Trustworthy Elections (EVT/WOTE 14), P1
+   Heninger J, 2020, LECT NOTES COMPUTER, V12059
+   Hertig A., 2015, The first bitcoin voting machine is on its way
+   Jabbar K, 2018, PROCEEDINGS OF THE 2018 ACM INTERNATIONAL CONFERENCE ON SUPPORTING GROUP WORK, GROUP 2018, P297, DOI 10.1145/3148330.3148345
+   Jain AK, 2008, EURASIP J ADV SIG PR, DOI 10.1155/2008/579416
+   Juels A, 2010, LECT NOTES COMPUT SC, V6000, P37, DOI 10.1007/978-3-642-12980-3_2
+   Karafiloski E, 2017, 17TH IEEE INTERNATIONAL CONFERENCE ON SMART TECHNOLOGIES - IEEE EUROCON 2017 CONFERENCE PROCEEDINGS, P763, DOI 10.1109/EUROCON.2017.8011213
+   Kazue Sako, 1995, ADV CRYPTOLOGY EUROC, V921, P297
+   Kiayias A, 2018, LECT NOTES COMPUT SC, V11035, P505, DOI 10.1007/978-3-319-98113-0_27
+   Kohno T, 2004, P IEEE S SECUR PRIV, P27
+   Kremer S, 2010, LECT NOTES COMPUTER, V6345
+   Küsters R, 2012, P IEEE S SECUR PRIV, P395, DOI 10.1109/SP.2012.32
+   Kuo TT, 2017, J AM MED INFORM ASSN, V24, P1211, DOI 10.1093/jamia/ocx068
+   Lao LH, 2020, ACM COMPUT SURV, V53, DOI 10.1145/3372136
+   Lin YK, 2019, ASIAPAC SIGN INFO PR, P47, DOI 10.1109/APSIPAASC47483.2019.9023220
+   McCorry P, 2017, CRYPTOLOGY EPRINT AR
+   Menezes A., 1997, HDB APPL CRYPTOGRAPH
+   NAKAMOTO S., 2008, CONSULTED, V1, P28
+   Nandakumar K, 2007, IEEE T INF FOREN SEC, V2, P744, DOI 10.1109/TIFS.2007.908165
+   Neff C.A.:., 2001, P OF THE 8 ACM C ON, P116, DOI [10.1145/501983.502000, DOI 10.1145/501983.502000]
+   Neff C.Andrew., 2004, PRACTICAL HIGH CERTA
+   Palngipang JF, 2015, 2015 9TH INTERNATIONAL CONFERENCE ON NEXT GENERATION MOBILE APPLICATIONS, SERVICES AND TECHNOLOGIES (NGMAST 2015), P35, DOI 10.1109/NGMAST.2015.33
+   Rivest R.L., 2007, USENIX ACCURATE ELEC USENIX ACCURATE ELEC
+   Ryan PYA, 2009, IEEE T INF FOREN SEC, V4, P662, DOI 10.1109/TIFS.2009.2033233
+   Salah K, 2013, IEEE INT CONF CLOUD, P755, DOI 10.1109/CLOUD.2013.20
+   Sandler D., 2008, USENIX Security Symposium, V4, P87
+   Schnorr C. P., 1991, Journal of Cryptology, V4, P161, DOI 10.1007/BF00196725
+   Seifelnasr M, 2020, FINANCIAL CRYPTOGRAP, V12063
+   Shahandashti Siamak F, 2016, 21 EUR S RES COMP SE
+   Sherman AT, 2006, WORKSH TRUSTW EL
+   Tarasov P., 2017, Cryptology ePrint Archive, Report 2017/585
+   Tuyls P., 2007, Security with Noisy Data: On Private Biometrics, Secure Key Storage and Anti-Counterfeiting
+   Van der Elst C, 2019, EUR BUS ORGAN LAW RE, V20, P111, DOI 10.1007/s40804-019-00136-0
+   Wallach Dan S, 2007, USENIX ACCURATE EL V
+   Wood G., ETHEREUM SECURE DECE
+   Yao A. C., 1986, 27th Annual Symposium on Foundations of Computer Science (Cat. No.86CH2354-9), P162, DOI 10.1109/SFCS.1986.25
+   Zhichao Zhao, 2016, Information and Communications Security. 17th International Conference, ICICS 2015. Revised Selected Papers: LNCS 9543, P82, DOI 10.1007/978-3-319-29814-6_8
+NR 79
+TC 22
+Z9 28
+U1 2
+U2 27
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 2214-2126
+EI 2214-2134
+J9 J INF SECUR APPL
+JI J. Inf. Secur. Appl.
+PD JUN
+PY 2021
+VL 59
+AR 102815
+DI 10.1016/j.jisa.2021.102815
+EA APR 2021
+PG 25
+WC Computer Science, Information Systems
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Computer Science
+GA SM1LI
+UT WOS:000657373000019
+DA 2025-11-20
+ER
+
+PT J
+AU Han, G
+   Li, YN
+   Yu, Y
+   Choo, KKR
+   Guizani, N
+AF Han, Gang
+   Li, Yannan
+   Yu, Yong
+   Choo, Kim-Kwang Raymond
+   Guizani, Nadra
+TI Blockchain-Based Self-Tallying Voting System with Software Updates in
+   Decentralized IoT
+SO IEEE NETWORK
+LA English
+DT Article
+DE Protocols; Electronic voting; Cryptography; Software
+ID SECURITY
+AB IoT revolutionizes academia as well as industry. An increasing number of interconnected smart devices are gradually changing the urban lifestyle, among which, voting machines are one of the most widely used smart devices. However, the existing voting protocols for IoT are barely satisfactory, in the sense that most of them are centralized and subject to fairness issues. Moreover, the embedded softwares in voting machines are susceptible to internal vulnerabilities and external attacks. To address these issues, in this article, we propose a framework of a blockchain-based self-tallying voting system with software updates in decentralized IoT, which is fully decentralized and fair. In the proposed system, everyone can compute the final election results by collecting the ballots on the blockchain with equal privilege. Voting machines achieve self-tallying voting functionality in decentralized IoT systems and each entity in the system can obtain the voting results. Vendors deploy smart contracts to publish new patches securely and reliably. We implement a prototype of the proposed framework on laptops and mobile phones respectively to demonstrate its practicality.
+C1 [Han, Gang] Xian Univ Posts & Telecommun, Sch Cyberspace Secur, Xian, Peoples R China.
+   [Li, Yannan] Univ Wollongong, Wollongong, NSW, Australia.
+   [Yu, Yong] Shaanxi Normal Univ, Xian, Peoples R China.
+   [Choo, Kim-Kwang Raymond] Univ Texas San Antonio, San Antonio, TX USA.
+   [Guizani, Nadra] Gonzaga Univ, Spokane, WA 99258 USA.
+   [Guizani, Nadra] Purdue Univ, W Lafayette, IN 47907 USA.
+C3 Xi'an University of Posts & Telecommunications; University of
+   Wollongong; Shaanxi Normal University; University of Texas System;
+   University of Texas at San Antonio; Gonzaga University; Purdue
+   University System; Purdue University
+RP Han, G (corresponding author), Xian Univ Posts & Telecommun, Sch Cyberspace Secur, Xian, Peoples R China.
+RI ; Han, Gang/K-9229-2016; Choo, Kim-Kwang Raymond/A-3634-2009
+OI Yu, Yong/0000-0002-0187-2439; Li, Yannan/0000-0002-4407-9027
+FU National Natural Science Foundation of China [61872229, 61960206014];
+   Basic Research Program of Qinghai Province [2020-ZJ-701]
+FX This work was supported by the National Natural Science Foundation of
+   China (61872229, 61960206014) and the Basic Research Program of Qinghai
+   Province (2020-ZJ-701). Yannan Li and Yong Yu are the corresponding
+   authors.
+CR Du XJ, 2008, IEEE WIREL COMMUN, V15, P60, DOI 10.1109/MWC.2008.4599222
+   Fujioka A., 1993, Advances in Cryptology - AUSCRYPT '92. Workshop on the Theory and Application of Cryptographic Techniques Proceedings, P244
+   Groth J, 2004, LECT NOTES COMPUT SC, V3110, P90
+   Hao F, 2010, IET INFORM SECUR, V4, P62, DOI 10.1049/iet-ifs.2008.0127
+   Khader D., 2012, Lecture Notes in Informatics (LNI), Proceedings-Series of the Gesellschaft fur Informatik (GI), P285
+   Kiayias A., 2002, Public Key Cryptography. 4th International Workshop on Practice and Theory in Public Key Cryptosystems, PKC 2002. Proceedings (Lecture Notes in Computer Science Vol.2274), P141
+   Kshetri N, 2018, IEEE SOFTWARE, V35, P95, DOI 10.1109/MS.2018.2801546
+   Li YN, 2021, IEEE T DEPEND SECURE, V18, P679, DOI 10.1109/TDSC.2019.2910058
+   McCorry P, 2017, LECT NOTES COMPUT SC, V10322, P357, DOI 10.1007/978-3-319-70972-7_20
+   Satoshi N., 2008, BITCOIN
+   Wang DD, 2018, REFR SCI T, P369, DOI 10.18462/iir.gl.2018.1169
+   Yang X., 2018, INT C WEB INF SYST E, P18
+   Yu Y, 2018, IEEE WIREL COMMUN, V25, P12, DOI 10.1109/MWC.2017.1800116
+   Yu Y, 2020, IEEE T EMERG TOP COM, V8, P377, DOI 10.1109/TETC.2017.2759329
+NR 14
+TC 11
+Z9 14
+U1 0
+U2 34
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0890-8044
+EI 1558-156X
+J9 IEEE NETWORK
+JI IEEE Netw.
+PD JUL-AUG
+PY 2020
+VL 34
+IS 4
+BP 166
+EP 172
+DI 10.1109/MNET.001.1900439
+PG 7
+WC Computer Science, Hardware & Architecture; Computer Science, Information
+   Systems; Engineering, Electrical & Electronic; Telecommunications
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Computer Science; Engineering; Telecommunications
+GA MP5WF
+UT WOS:000552273900024
+DA 2025-11-20
+ER
+
+PT C
+AU Blanchard, E
+   Gallais, A
+   Leblond, E
+   Sidhoum-Rahal, D
+   Walter, J
+AF Blanchard, Enka
+   Gallais, Antoine
+   Leblond, Emmanuel
+   Sidhoum-Rahal, Djohar
+   Walter, Juliette
+BE Krimmer, R
+   Volkamer, M
+   Duenas-Cid, D
+   Ronne, P
+   Germann, M
+TI An Analysis of the Security and Privacy Issues of the Neovote Online
+   Voting System
+SO ELECTRONIC VOTING (E-VOTE-ID 2022)
+SE Lecture Notes in Computer Science
+LA English
+DT Proceedings Paper
+CT 7th International Conference on Electronic Voting (E-Vote-ID)
+CY OCT 04-07, 2022
+CL Bregenz, AUSTRIA
+DE Cybersecurity; Electronic voting system; Privacy; Case study; Online
+   voting
+AB This article provides the first security and privacy analysis of the Neovote voting system, which was used for three of the five primaries in the French 2022 presidential election. We show that the demands of transparency, verifiability and security set by French governmental organisations were not met, and propose multiple attacks against the system targeting both the breach of voters' privacy and the manipulation of the tally. We also show how inconsistencies in the verification system allow the publication of erroneous tallies and document how this arrived in practice during one of the primary elections.
+C1 [Blanchard, Enka] CNRS, Paris, France.
+   [Blanchard, Enka; Gallais, Antoine] UPHF, Lab Automat Mecan & Informat Ind & Humaines, Valenciennes, France.
+   [Blanchard, Enka] CNRS, Ctr Internet & Soc, Paris, France.
+   [Leblond, Emmanuel] Scille SAS, St Medard En Jalles, France.
+   [Sidhoum-Rahal, Djohar] Univ Limoges, Observ Mutat Inst & Jurid, Limoges, France.
+   [Walter, Juliette] Unite Live, Paris, France.
+C3 Centre National de la Recherche Scientifique (CNRS); Centre National de
+   la Recherche Scientifique (CNRS); Universite Polytechnique
+   Hauts-de-France; Centre National de la Recherche Scientifique (CNRS);
+   Universite de Limoges
+RP Blanchard, E (corresponding author), CNRS, Paris, France.; Blanchard, E (corresponding author), UPHF, Lab Automat Mecan & Informat Ind & Humaines, Valenciennes, France.; Blanchard, E (corresponding author), CNRS, Ctr Internet & Soc, Paris, France.
+EM enka.blanchard@cnrs.fr
+OI Gallais, Antoine/0000-0002-9457-7112; Blanchard,
+   Enka/0000-0003-1511-8864
+CR Ali S.T., 2016, Real-World Electronic Voting, P189
+   [Anonymous], 2021, GUID SEL ALG CRYPT T
+   [Anonymous], 2021, COUR CASSATION CIVIL
+   [Anonymous], 2019, COUR ADM DAPPEL MARS
+   Balinski M, 2016, COMMENTAIRE, V2, P413
+   Barrett R. W., 2009, Valparaiso University Law Review, V44, P125
+   Blanchard E., 2021, CRYPTOLOGIA, V46, P1
+   Blanchard E., 2019, THESIS U SORBONNE PA
+   Bleichenbacher D, 2006, LECT NOTES COMPUT SC, V3958, P1
+   CNIL, 2019, 2019053 CNIL JORF
+   Cortier V., 2019, LNCS, V11565, P214, DOI [10.1007/978-3-030-19052-114, DOI 10.1007/978-3-030-19052-114]
+   de Barros F., 2022, THESIS U BORDEAUX
+   Enguehard C., 2014, CAHIERS DROIT SCI TE, V4, P159
+   Frye T, 2019, BRIT J POLIT SCI, V49, P857, DOI 10.1017/S0007123416000752
+   Groth J, 2004, LECT NOTES COMPUT SC, V3110, P90
+   Haenni R, 2020, LECT NOTES COMPUT SC, V12455, P95, DOI 10.1007/978-3-030-60347-2_7
+   Haines T, 2021, LECT NOTES COMPUT SC, V12676, P279, DOI 10.1007/978-3-662-63958-0_24
+   Harvey CJ, 2016, ELECT STUD, V41, P105, DOI 10.1016/j.electstud.2015.11.004
+   Horn A., 2022, NUMERAMA
+   Horwitz D.A., 2015, SMU SCI TECHNOL LAW, V18, P247
+   Isaak J, 2018, COMPUTER, V51, P56, DOI 10.1109/MC.2018.3191268
+   Kinzer B.L., 1978, ALBION, V10, P237
+   Küsters R, 2010, PROCEEDINGS OF THE 17TH ACM CONFERENCE ON COMPUTER AND COMMUNICATIONS SECURITY (CCS'10), P526, DOI 10.1145/1866307.1866366
+   Levade A., 2015, POUVOIRS, V3, P99
+   Margolius BarbaraH., 2001, Mathematics Magazine, V74, P33, DOI [10.2307/2691151, DOI 10.2307/2691151]
+   McCorry P, 2017, LECT NOTES COMPUT SC, V10322, P357, DOI 10.1007/978-3-319-70972-7_20
+   McKenna M., 2001, AUSTR BALLOT
+   Reny PJ, 2001, ECON LETT, V70, P99, DOI 10.1016/S0165-1765(00)00332-3
+   Souffi E., 2021, J DIMANCHE
+   Vasseur V., 2021, FRANCE INTER
+   Vinkel P., 2015, REMOTE ELECT VOTING
+   Volkamer Melanie., 2011, Proceedings of the 5th International Conference on Theory and Practice of Electronic Governance, P1, DOI [10.1145/2072069.2072071, DOI 10.1145/2072069.2072071]
+NR 32
+TC 5
+Z9 5
+U1 0
+U2 0
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 0302-9743
+EI 1611-3349
+BN 978-3-031-15911-4; 978-3-031-15910-7
+J9 LECT NOTES COMPUT SC
+PY 2022
+VL 13553
+BP 1
+EP 18
+DI 10.1007/978-3-031-15911-4_1
+PG 18
+WC Computer Science, Information Systems; Computer Science,
+   Interdisciplinary Applications; Computer Science, Theory & Methods;
+   Political Science; Public Administration
+WE Conference Proceedings Citation Index - Science (CPCI-S); Conference Proceedings Citation Index - Social Science &amp; Humanities (CPCI-SSH)
+SC Computer Science; Government & Law; Public Administration
+GA BT9ZG
+UT WOS:000865997600001
+OA hybrid
+DA 2025-11-20
+ER
+
+PT C
+AU Chaeikar, SS
+   Jolfaei, A
+   Mohammad, N
+   Ostovari, P
+AF Chaeikar, Saman Shojae
+   Jolfaei, Alireza
+   Mohammad, Nazeeruddin
+   Ostovari, Pouya
+GP IEEE Comp Soc
+TI Security Principles and Challenges in Electronic Voting
+SO 2021 IEEE 25TH INTERNATIONAL ENTERPRISE DISTRIBUTED OBJECT COMPUTING
+   CONFERENCE WORKSHOPS (EDOCW 2021)
+SE IEEE International Enterprise Distributed Object Computing Conference
+   Workshops-EDOCW
+LA English
+DT Proceedings Paper
+CT 25th IEEE International Enterprise Distributed Object Computing
+   Conference (IEEE EDOC)
+CY OCT 25-29, 2021
+CL ELECTR NETWORK
+SP IEEE, IEEE Comp Soc, Griffith Univ, Destinat Gold Coast
+DE Availability; confidentiality; electronic voting; integrity; security
+   landscape
+AB An electronic voting system aims to cast and record votes of the legitimate voters while providing an adequate level of security in the way the votes are cast. These require eliminating the link between the voter and the vote, and at the same time, providing an audit trail for validating the counting and tallying processes. Voting is a critical principle of democracy, and to achieve an accurate vote recording, storing, and reporting, the designed system must be reliable, and tampering and fraud-resistant. Moreover, the architecture of the system must prevent user mistakes, and technical errors and drawbacks. This paper classifies the current critical security issues of the e-voting systems in a structured way, to help the e-voting researchers and designers evaluate their systems against them. To this end, it first reviews the system components, authorized user types, and potential threats, and then discusses the confidentiality, integrity, and availability (CIA) issues. The final contribution is introducing and prioritizing the potential security solutions.
+C1 [Chaeikar, Saman Shojae; Jolfaei, Alireza] Macquarie Univ, Dept Comp, N Ryde, NSW, Australia.
+   [Mohammad, Nazeeruddin] Prince Mohammad Bin Fahd Univ, Cybersecur Ctr, Khobar, Saudi Arabia.
+   [Ostovari, Pouya] San Jose State Univ, Charles W Davidson Coll Engn, San Jose, CA 95192 USA.
+C3 Macquarie University; Prince Mohammad Bin Fahd University; California
+   State University System; San Jose State University
+RP Chaeikar, SS (corresponding author), Macquarie Univ, Dept Comp, N Ryde, NSW, Australia.
+EM saman.shojae_chaeikar@mq.edu.au
+RI Jolfaei, Alireza/GQH-6907-2022; Ostovari, Pouya/I-5323-2019; Mohammad,
+   Nazeeruddin/AAY-9122-2021; Shojae Chaeikar, Saman/AAS-8245-2021
+OI Jolfaei, Alireza/0000-0001-7818-459X; Mohammad,
+   Nazeeruddin/0000-0003-3580-5960; Shojae Chaeikar,
+   Saman/0000-0002-2958-6901; 
+FU PMU cybersecurity center
+FX This research was in part supported by the PMU cybersecurity center.
+CR Anwar M. N., 2019, INT J APPL ENG RES, V14, P2492
+   Augoye V., 2018, UKAIS, V2018, P14
+   Biswas S, 2015, International Journal of u- and e- Service Science and Technology, V8, P231, DOI 10.14257/ijunesst.2015.8.1.21
+   Chaeikar Saman Shojae, 2013, Journal of Next Generation Information Technology, V4, P16, DOI 10.4156/jnit.vol4.issue5.3
+   Chaeikar S.S., 2010, SECUR MANAGE, P204
+   Chaeikar SS, 2022, INT J INTELL SYST, V37, P10158, DOI 10.1002/int.22435
+   Chaeikar SS, 2020, ELECTRONICS-SWITZ, V9, DOI 10.3390/electronics9040615
+   Chaeikar SS, 2019, SIGNAL PROCESS-IMAGE, V70, P233, DOI 10.1016/j.image.2018.10.004
+   Chhabra R, 2020, 2020 5 INT C COMM EL, P536
+   Chuprat S., 2014, ARXIV PREPRINT ARXIV
+   Darwish A, 2017, International Journal of Swarm Intelligence and Evolutionary Computation, V06, DOI [10.4172/2090-4908.1000158, DOI 10.4172/2090-4908.1000158]
+   Garnett HA, 2020, ELECT LAW J, V19, P111, DOI 10.1089/elj.2020.0633
+   Halderman JA, 2016, P159, DOI 10.1201/9781315371290-15
+   Hirschi L, 2019, 2019 4TH IEEE EUROPEAN SYMPOSIUM ON SECURITY AND PRIVACY (EUROS&P), P635, DOI 10.1109/EuroSP.2019.00052
+   Juels A., 2018, CONVERSATION
+   Olaniyi O. M., 2011, FRAMEWORK MULTILINGU
+   Park S, 2021, J CYBERSECURITY, V7, DOI 10.1093/cybsec/tyaa025
+   Realpe-Muñoz P, 2018, COMPUT STAND INTER, V55, P182, DOI 10.1016/j.csi.2017.08.004
+   Suki NM, 2017, J ENTERP INF MANAG, V30, P944, DOI 10.1108/JEIM-08-2016-0151
+   Taherdoost Hamed, 2012, International Journal of Research and Reviews in Computer Science, V3, P1792
+   Taherdoost H., 2013, International Journal of Advanced Computer Science and Information Technology (IJACSIT), V1, P14
+   Tas R, 2020, SYMMETRY-BASEL, V12, DOI 10.3390/sym12081328
+   Toapanta S. M. T., 2019, ADV SCI TECHNOL ENG, V4, P106
+   Yazdanpanah S., 2012, IRACST INT J COMPUTE
+   Yusifov F. F., 2018, ITP JURNALI
+   Zeidanloo H.R., 2010, International Journal of Engineering and Technology, V2, P161
+NR 26
+TC 3
+Z9 4
+U1 0
+U2 5
+PU IEEE COMPUTER SOC
+PI LOS ALAMITOS
+PA 10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1264 USA
+SN 2325-6583
+BN 978-1-6654-4488-0
+J9 IEEE INT ENTERP
+PY 2021
+BP 38
+EP 45
+DI 10.1109/EDOCW52865.2021.00030
+PG 8
+WC Computer Science, Interdisciplinary Applications; Computer Science,
+   Software Engineering; Computer Science, Theory & Methods
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science
+GA BS5YZ
+UT WOS:000744466000005
+DA 2025-11-20
+ER
+
+PT C
+AU Cortier, V
+   Gaudry, P
+   Yang, QT
+AF Cortier, Veronique
+   Gaudry, Pierrick
+   Yang, Quentin
+GP IEEE COMPUTER SOC
+TI Is the JCJ voting system really coercion-resistant?
+SO 2024 IEEE 37TH COMPUTER SECURITY FOUNDATIONS SYMPOSIUM, CSF 2024
+SE Proceedings IEEE Computer Security Foundations Symposium
+LA English
+DT Proceedings Paper
+CT 37th IEEE Computer Security Foundations Symposium (CSF)
+CY JUL 08-12, 2024
+CL Enschede, NETHERLANDS
+SP IEEE, IEEE Comp Soc Tech Comm Secur & Privacy
+DE E-voting; coercion-resistance
+AB Coercion-resistance is a security property of electronic voting, often considered as a must-have for high-stake elections. The JCJ voting scheme, proposed in 2005 by Juels, Catalano and Jakobsson, is still the reference paradigm when designing a coercion-resistant protocol. We highlight a weakness in JCJ that is also present in all the systems following its general structure. This comes from the procedure that precedes the tally, where the trustees remove the ballots that should not be counted. This phase leaks more information than necessary, leading to potential threats for the coerced voters. Fixing this leads to the notion of cleansing-hiding, that we apply to form a variant of JCJ that we call CHide. One reason for the problem not being seen before is the fact that the associated formal definition of coercion-resistance was too weak. We therefore propose a definition that takes into account more behaviors such as revoting or the addition of fake ballots by authorities. We then prove that CHide is coercion-resistant for this definition.
+C1 [Cortier, Veronique; Gaudry, Pierrick; Yang, Quentin] Univ Lorraine, CNRS, Inria, LORIA, Nancy, France.
+C3 Centre National de la Recherche Scientifique (CNRS); Universite de
+   Lorraine; Inria
+RP Cortier, V (corresponding author), Univ Lorraine, CNRS, Inria, LORIA, Nancy, France.
+FU  [ANR-22-PECY-0006]
+FX This work benefited from funding managed by the French National Research
+   Agency under the France 2030 programme with the reference
+   ANR-22-PECY-0006.
+CR [Anonymous], 1968, AM FEDERATION INFORM
+   Aranha D. F., 2023, Paper 2023/837
+   Araujo R., 2007, FRONTIERS ELECT VOTI
+   Araújo R, 2016, LECT NOTES COMPUT SC, V9604, P224, DOI 10.1007/978-3-662-53357-4_15
+   Araújo R, 2010, LECT NOTES COMPUT SC, V6467, P278, DOI 10.1007/978-3-642-17619-7_20
+   Benaloh J, 2009, IEEE T INF FOREN SEC, V4, P685, DOI 10.1109/TIFS.2009.2033757
+   Bernhard D, 2012, LECT NOTES COMPUT SC, V7658, P626, DOI 10.1007/978-3-642-34961-4_38
+   Boneh D., 2019, CRYPTO 19
+   Canetti R, 2015, LECT NOTES COMPUT SC, V9216, P3, DOI 10.1007/978-3-662-48000-7_1
+   Clark J., 2011, FC 11
+   Clarkson MR, 2008, P IEEE S SECUR PRIV, P354, DOI 10.1109/SP.2008.32
+   Cortier V., 2024, Paper 2022/430
+   Cortier V., 2022, ESORICS 22
+   Ehin P, 2022, GOV INFORM Q, V39, DOI 10.1016/j.giq.2022.101718
+   Gennaro R, 1999, LECT NOTES COMPUT SC, V1592, P295
+   Grewal GS, 2013, P IEEE S SECUR PRIV, P367, DOI 10.1109/SP.2013.32
+   Haines T., 2019, Report 2019/822
+   Hirschi L, 2021, P IEEE COMPUT SECUR, P125, DOI 10.1109/CSF51468.2021.00016
+   Huber N., 2022, CCS 22
+   Jakobsson M, 1996, LECT NOTES COMPUT SC, V1070, P143
+   Jakobsson M., 2000, ASIACRYPT 00
+   Juels A., 2005, P 2005 ACM WORKSHOP, P61, DOI DOI 10.1145/1102199.1102213
+   Küsters R, 2020, 2020 5TH IEEE EUROPEAN SYMPOSIUM ON SECURITY AND PRIVACY (EUROS&P 2020), P216, DOI 10.1109/EuroSP48549.2020.00022
+   Küsters R, 2010, 2010 23RD IEEE COMPUTER SECURITY FOUNDATIONS SYMPOSIUM (CSF), P122, DOI 10.1109/CSF.2010.16
+   Locher P, 2016, LECT NOTES COMPUT SC, V9604, P161, DOI 10.1007/978-3-662-53357-4_11
+   Lueks W, 2020, PROCEEDINGS OF THE 29TH USENIX SECURITY SYMPOSIUM, P1553
+   Madise U ., 2006, 2 INT WORKSH EL VOT
+   McMurtry E, 2020, SECURITY CRYPTOLOGY, V12309, P23, DOI 10.1007/978-3-030-59013-0_2
+   Mestel D, 2022, P IEEE COMPUT SECUR, P179, DOI 10.1109/CSF54842.2022.9979167
+   Schoenmakers B, 2004, LECT NOTES COMPUT SC, V3329, P119
+   Spycher O., 2012, 5 INT C EL VOT EVOTE
+   Spycher O, 2012, LECT NOTES COMPUT SC, V7035, P182
+   Wikström D, 2004, LECT NOTES COMPUT SC, V2951, P317
+   Wikstrom D., 2004, SECURITY COMMUNICATI
+   Wikstrom D., Open Verificatum
+   Wikström D, 2009, LECT NOTES COMPUT SC, V5594, P407, DOI 10.1007/978-3-642-02620-1_28
+NR 36
+TC 2
+Z9 2
+U1 0
+U2 0
+PU IEEE COMPUTER SOC
+PI LOS ALAMITOS
+PA 10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1264 USA
+SN 1940-1434
+EI 2374-8303
+BN 979-8-3503-6204-6; 979-8-3503-6203-9
+J9 P IEEE COMPUT SECUR
+PY 2024
+BP 186
+EP 200
+DI 10.1109/CSF61375.2024.00003
+PG 15
+WC Computer Science, Information Systems; Computer Science, Theory &
+   Methods; Mathematics, Applied
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science; Mathematics
+GA BX7KL
+UT WOS:001322679500013
+OA Green Submitted
+DA 2025-11-20
+ER
+
+PT C
+AU Pointcheval, D
+AF Pointcheval, David
+BE Phan, DH
+   Galdi, C
+TI Efficient Universally-Verifiable Electronic Voting with Everlasting
+   Privacy
+SO SECURITY AND CRYPTOGRAPHY FOR NETWORKS, PT I, SCN 2024
+SE Lecture Notes in Computer Science
+LA English
+DT Proceedings Paper
+CT 14th International Conference on Security and Cryptography for Networks
+   (SCN)
+CY SEP 11-13, 2024
+CL Amalfi, ITALY
+SP Int Assoc Cryptol Res
+AB Universal verifiability is a must-to-have for electronic voting schemes. It is essential to ensure honest behavior of all the players during the whole process, together with the eligibility. However, it should not endanger the privacy of the individual votes, which is another major requirement. Whereas the first property prevents attacks during the voting process, privacy of the votes should hold forever, which has been called everlasting privacy.
+   A classical approach for universal verifiability is to add some proofs together with the encrypted votes, which requires publication of the latter, while eligibility needs a link between the votes and the voters: it definitely excludes long-term privacy. An alternative is the use of perfectly-hiding commitments, on which proofs are published, while ciphertexts are kept private for computing the tally.
+   In this paper, we show how recent linearly-homomorphic signatures can be exploited for all the proofs, leading to very efficient procedures towards universal verifiability with both strong receipt-freeness and everlasting privacy. Privacy will indeed be unconditional, after the publication of the results and the proofs, whereas the soundness of the proofs holds in the algebraic group model and the random oracle model.
+C1 [Pointcheval, David] PSL Univ, Ecole Normale Super, CNRS, DIENS,Inria, Paris, France.
+C3 Universite PSL; Ecole Normale Superieure (ENS); Centre National de la
+   Recherche Scientifique (CNRS); Inria
+RP Pointcheval, D (corresponding author), PSL Univ, Ecole Normale Super, CNRS, DIENS,Inria, Paris, France.
+EM david.pointcheval@ens.fr
+OI Pointcheval, David/0000-0002-6668-683X
+FU France 2030 ANR [ANR-22-PECY-003]
+FX This work was supported in part by the France 2030 ANR Project
+   ANR-22-PECY-003 SecureCompute.
+CR Abe M, 2010, LECT NOTES COMPUT SC, V6223, P209, DOI 10.1007/978-3-642-14623-7_12
+   Ahn JH, 2012, LECT NOTES COMPUT SC, V7194, P1, DOI 10.1007/978-3-642-28914-9_1
+   AHO10 Abe M., 2010, Report 2010/133
+   [Anonymous], 1993, CCS 93 P 1 ACM C COM, DOI DOI 10.1145/168588.168596
+   Barreto PSLM, 2003, LECT NOTES COMPUT SC, V2576, P257
+   Bauer B., 2024, Paper 2024/183
+   Bauer B, 2020, LECT NOTES COMPUT SC, V12238, P359, DOI 10.1007/978-3-030-57990-6_18
+   Bitansky N, 2013, STOC'13: PROCEEDINGS OF THE 2013 ACM SYMPOSIUM ON THEORY OF COMPUTING, P111
+   Boneh D, 2011, LECT NOTES COMPUT SC, V6632, P149, DOI 10.1007/978-3-642-20465-4_10
+   Boneh D, 2011, LECT NOTES COMPUT SC, V6571, P1, DOI 10.1007/978-3-642-19379-8_1
+   Boneh D, 2009, LECT NOTES COMPUT SC, V5443, P68
+   Chaidos P., 2016, Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security, P1614, DOI DOI 10.1145/2976749.2978337
+   Cortier V, 2019, P IEEE COMPUT SECUR, P367, DOI 10.1109/CSF.2019.00032
+   Cortier V, 2011, 2011 IEEE 24TH COMPUTER SECURITY FOUNDATIONS SYMPOSIUM (CSF), P297, DOI 10.1109/CSF.2011.27
+   Cuvelier Edouard, 2013, Computer Security - ESORICS 2013. 18th European Symposium on Research in Computer Security. Proceedings: LNCS 8134, P481, DOI 10.1007/978-3-642-40203-6_27
+   ELGAMAL T, 1985, IEEE T INFORM THEORY, V31, P469, DOI 10.1109/TIT.1985.1057074
+   Freeman DM, 2012, LECT NOTES COMPUT SC, V7293, P697, DOI 10.1007/978-3-642-30057-8_41
+   Fuchsbauer G, 2019, J CRYPTOL, V32, P498, DOI 10.1007/s00145-018-9281-4
+   Fuchsbauer G, 2018, LECT NOTES COMPUT SC, V10992, P33, DOI 10.1007/978-3-319-96881-0_2
+   Gennaro R, 2013, LECT NOTES COMPUT SC, V7881, P626, DOI 10.1007/978-3-642-38348-9_37
+   Groth J, 2016, LECT NOTES COMPUT SC, V9666, P305, DOI 10.1007/978-3-662-49896-5_11
+   Haines T, 2023, Proceedings on Privacy Enhancing Technologies, V2023, P279, DOI [10.56553/popets-2023-0017, DOI 10.56553/POPETS-2023-0017, 10.56553/popets-2023-0017]
+   Hébant C, 2022, LECT NOTES COMPUT SC, V13409, P411, DOI 10.1007/978-3-031-14791-3_18
+   Hébant C, 2020, LECT NOTES COMPUT SC, V12111, P597, DOI 10.1007/978-3-030-45388-6_21
+   Johnson R., 2002, Topics in Cryptology - CT-RSA 2002. Cryptographers' Track at the RSA Conference 2002. Proceedings (Lecture Notes in Computer Science Vol.2271), P244
+   Libert B, 2013, LECT NOTES COMPUT SC, V8043, P289, DOI 10.1007/978-3-642-40084-1_17
+   Paillier P, 1999, LECT NOTES COMPUT SC, V1592, P223
+   PEDERSEN TP, 1992, LECT NOTES COMPUT SC, V576, P129
+   Pointcheval D., 2023, Paper 2023/1499
+   Pointcheval D., 2024, Paper 2024/742
+NR 30
+TC 2
+Z9 2
+U1 0
+U2 0
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 0302-9743
+EI 1611-3349
+BN 978-3-031-71069-8; 978-3-031-71070-4
+J9 LECT NOTES COMPUT SC
+PY 2024
+VL 14973
+BP 323
+EP 344
+DI 10.1007/978-3-031-71070-4_15
+PG 22
+WC Computer Science, Information Systems; Computer Science, Software
+   Engineering; Computer Science, Theory & Methods; Telecommunications
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science; Telecommunications
+GA BX8FE
+UT WOS:001330406600017
+OA Green Submitted
+DA 2025-11-20
+ER
+
+PT C
+AU Delaune, S
+   Lallemand, J
+AF Delaune, Stephanie
+   Lallemand, Joseph
+BE Atluri, V
+   DiPietro, R
+   Jensen, CD
+   Meng, W
+TI One Vote Is Enough for Analysing Privacy
+SO COMPUTER SECURITY - ESORICS 2022, PT I
+SE Lecture Notes in Computer Science
+LA English
+DT Proceedings Paper
+CT 27th European Symposium on Research in Computer Security (ESORICS)
+CY SEP 26-30, 2022
+CL Tech Univ Denmark, Copenhagen, DENMARK
+HO Tech Univ Denmark
+AB Electronic voting promises the possibility of convenient and efficient systems for recording and tallying votes in an election. To be widely adopted, ensuring the security of the cryptographic protocols used in e-voting is of paramount importance. However, the security analysis of this type of protocols raises a number of challenges, and they are often out of reach of existing verification tools.
+   In this paper, we study vote privacy, a central security property that should be satisfied by any e-voting system. More precisely, we propose the first formalisation of the recent BPRIV notion in the symbolic setting. To ease the formal security analysis of this notion, we propose a reduction result allowing one to bound the number of voters and ballots needed to mount an attack. Our result applies on a number of case studies including several versions of Helios, Belenios, JCJ/Civitas, and Pret-a-Voter. For some of these protocols, thanks to our result, we are able to conduct the analysis relying on the automatic tool Proverif.
+C1 [Delaune, Stephanie; Lallemand, Joseph] Univ Rennes, CNRS, IRISA, Rennes, France.
+C3 Centre National de la Recherche Scientifique (CNRS); Universite de
+   Rennes
+RP Lallemand, J (corresponding author), Univ Rennes, CNRS, IRISA, Rennes, France.
+EM joseph.lallemand@irisa.fr
+FU European Research Council (ERC) under the European Union's Horizon 2020
+   programme [714955-POPSTAR]; French National Research Agency (ANR)
+   [ANR-22-PECY-0006]
+FX This work has received funding from the European Research Council (ERC)
+   under the European Union's Horizon 2020 programme (grant agreement n.
+   714955-POPSTAR), as well as from the French National Research Agency
+   (ANR), under project TECAP, and under the France 2030 programme with
+   reference ANR-22-PECY-0006.
+CR Abadi M, 2001, ACM SIGPLAN NOTICES, V36, P104, DOI 10.1145/373243.360213
+   Adida Ben, 2008, P 17 USENIX SECURITY, P335
+   [Anonymous], 1987, Ph.D. thesis
+   Arapinis M, 2016, LECT NOTES COMPUT SC, V9879, P241, DOI 10.1007/978-3-319-45741-3_13
+   Backes M, 2008, CSF 2008: 21ST IEEE COMPUTER SECURITY FOUNDATIONS SYMPOSIUM, PROCEEDINGS, P195, DOI 10.1109/CSF.2008.26
+   Basin D, 2018, P IEEE COMPUT SECUR, P283, DOI 10.1109/CSF.2018.00028
+   Basin D, 2015, CCS'15: PROCEEDINGS OF THE 22ND ACM SIGSAC CONFERENCE ON COMPUTER AND COMMUNICATIONS SECURITY, P1144, DOI 10.1145/2810103.2813662
+   Benaloh JoshC., 1986, PODC 86, P52, DOI [10.1145/10590.10595, DOI 10.1145/10590.10595]
+   Bernhard D, 2015, P IEEE S SECUR PRIV, P499, DOI 10.1109/SP.2015.37
+   Blanchet B, 2005, IEEE S LOG, P331
+   Blanchet B, 2001, P IEEE CSFW, P82, DOI 10.1109/CSFW.2001.930138
+   Blanchet B, 2018, J COMPUT SECUR, V26, P367, DOI 10.3233/JCS-171013
+   Blanchet B, 2016, Foundations and Trends® in Privacy and Security, V1, P1, DOI [10.1561/3300000004, 10.1561/3300000004, DOI 10.1561/3300000004]
+   Chaidos P., 2016, Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security, P1614, DOI DOI 10.1145/2976749.2978337
+   Chaum D, 2005, LECT NOTES COMPUT SC, V3679, P118
+   Comon-Lundh H, 2003, LECT NOTES COMPUT SC, V2618, P99
+   Cortier V., 2019, LNCS, V11565, P214, DOI [10.1007/978-3-030-19052-114, DOI 10.1007/978-3-030-19052-114]
+   Cortier V, 2020, P IEEE COMPUT SECUR, P17, DOI 10.1109/CSF49147.2020.00010
+   Cortier V, 2019, P IEEE COMPUT SECUR, P367, DOI 10.1109/CSF.2019.00032
+   Cortier V, 2018, 2018 3RD IEEE EUROPEAN SYMPOSIUM ON SECURITY AND PRIVACY (EUROS&P 2018), P430, DOI 10.1109/EuroSP.2018.00037
+   Cortier V, 2017, J COMPUT SECUR, V25, P21, DOI 10.3233/JCS-15777
+   Cortier V, 2016, LECT NOTES COMPUT SC, V9635, P211, DOI 10.1007/978-3-662-49635-0_11
+   Cortier V, 2013, J COMPUT SECUR, V21, P89, DOI 10.3233/JCS-2012-0458
+   D'Osualdo E, 2017, P IEEE CSFW, P464, DOI 10.1109/CSF.2017.32
+   Delaune S., 2022, ONE VOTE IS ENOUGH A
+   Delaune S, 2017, J LOG ALGEBR METHODS, V87, P127, DOI 10.1016/j.jlamp.2016.10.005
+   Delaune S, 2009, J COMPUT SECUR, V17, P435, DOI 10.3233/JCS-2009-0340
+   Froschle Sibylle, 2015, Principles of Security and Trust. 4th International Conference, POST 2015, held as part of the European Joint Conferences on Theory and Practice of Software, ETAPS 2015. Proceedings: LNCS 9036, P176, DOI 10.1007/978-3-662-46666-7_10
+   Juels A, 2010, LECT NOTES COMPUT SC, V6000, P37, DOI 10.1007/978-3-642-12980-3_2
+   Meier Simon, 2013, Computer Aided Verification. 25th International Conference, CAV 2013. Proceedings. LNCS 8044, P696, DOI 10.1007/978-3-642-39799-8_48
+   Mödersheim S, 2019, ACM T PRIV SECUR, V22, DOI 10.1145/3289255
+   Ryan PYA, 2006, LECT NOTES COMPUT SC, V4189, P313
+NR 32
+TC 2
+Z9 2
+U1 0
+U2 1
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 0302-9743
+EI 1611-3349
+BN 978-3-031-17140-6; 978-3-031-17139-0
+J9 LECT NOTES COMPUT SC
+PY 2022
+VL 13554
+BP 173
+EP 194
+DI 10.1007/978-3-031-17140-6_9
+PG 22
+WC Computer Science, Information Systems; Computer Science, Theory &
+   Methods; Mathematics, Applied
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science; Mathematics
+GA BU0BQ
+UT WOS:000866560400009
+OA Green Submitted
+DA 2025-11-20
+ER
+
+PT C
+AU Estaji, E
+   Haines, T
+   Gjosteen, K
+   Ronne, PB
+   Ryan, PYA
+   Soroush, N
+AF Estaji, Ehsan
+   Haines, Thomas
+   Gjosteen, Kristian
+   Ronne, Peter B.
+   Ryan, Peter Y. A.
+   Soroush, Najmeh
+BE Krimmer, R
+   Volkamer, M
+   Beckert, B
+   Kusters, R
+   Kulyk, O
+   DuenasCid, D
+   Solvak, M
+TI Revisiting Practical and Usable Coercion-Resistant Remote E-Voting
+SO ELECTRONIC VOTING, E-VOTE-ID 2020
+SE Lecture Notes in Computer Science
+LA English
+DT Proceedings Paper
+CT 5th International Joint Conference on Electronic Voting (E-Vote-ID)
+CY OCT 06-09, 2020
+CL ELECTR NETWORK
+DE Electronic voting; Coercion-resistance; Usable security
+AB In this paper we revisit the seminal coercion-resistant e-voting protocol by Juels, Catalano and Jakobsson (JCJ) and in particular the attempts to make it usable and practical. In JCJ the user needs to handle cryptographic credentials and be able to fake these in case of coercion. In a series of three papers Neumann et al. analysed the usability of JCJ, and constructed and implemented a practical credential handling system using a smart card which unlock the true credential via a PIN code, respectively fake the credential via faking the PIN. We present several attacks and problems with the security of this protocol, especially an attack on coercion-resistance due to information leakage from the removal of duplicate ballots.
+   Another problem, already stressed but not solved by Neumann et al, is that PIN typos happen frequently and would invalidate the cast vote without the voter being able to detect this. We construct different protocols which repair these problems. Further, the smart card is a trusted component which can invalidate cast votes without detection and can be removed by a coercer to force abstention, i.e. presenting a single point of failure. Hence we choose to make the protocols hardware-flexible i.e. also allowing the credentials to be store by ordinary means, but still being PIN based and providing PIN error resilience. Finally, one of the protocols has a linear tally complexity to ensure an efficient scheme also with many voters.
+C1 [Estaji, Ehsan; Ronne, Peter B.; Ryan, Peter Y. A.; Soroush, Najmeh] SnT, Luxembourg, Luxembourg.
+   [Estaji, Ehsan; Ronne, Peter B.; Ryan, Peter Y. A.; Soroush, Najmeh] Univ Luxembourg, Luxembourg, Luxembourg.
+   [Haines, Thomas; Gjosteen, Kristian] Norwegian Univ Sci & Technol, Trondheim, Norway.
+C3 University of Luxembourg; Norwegian University of Science & Technology
+   (NTNU)
+RP Ronne, PB (corresponding author), SnT, Luxembourg, Luxembourg.; Ronne, PB (corresponding author), Univ Luxembourg, Luxembourg, Luxembourg.
+EM ehsan.estaji@uni.lu; thomas.haines@ntnu.no; kristian.gjosteen@ntnu.no;
+   peter.ronne@uni.lu; peter.ryan@uni.lu; najmeh.soroush@uni.lu
+RI ; Roenne, Peter/KFR-7668-2024
+OI Roenne, Peter/0000-0002-2785-8301; 
+FU Luxembourg National Research Fund (FNR)
+FX This research were supported by the Luxembourg National Research Fund
+   (FNR).
+CR Allenby R.B.J.T., 2011, COUNT INTRO COMBINAT, V2nd
+   ARAUJO R, 2016, FC 2016, V9604, P224, DOI DOI 10.1007/978-3-662-53357-415
+   Boneh D, 2005, LECT NOTES COMPUT SC, V3378, P325
+   Clarkson MR, 2008, P IEEE S SECUR PRIV, P354, DOI 10.1109/SP.2008.32
+   Feier, 2014, 44 JAHRESTAGUNG GESE, P1401
+   Grontas Panagiotis, 2019, LNCS, V10958, P210, DOI DOI 10.1007/978-3-662-58820-8_15
+   Groth J, 2008, LECT NOTES COMPUT SC, V4965, P415
+   Iovino Vincenzo, 2017, Financial Cryptography and Data Security. FC 2017 International Workshops WAHC, BITCOIN, VOTING, WTSC, and TA. Revised Selected Papers: LNCS 10323, P385, DOI 10.1007/978-3-319-70278-0_24
+   Jamroga W, 2019, LECT NOTES COMPUT SC, V11759, P183, DOI 10.1007/978-3-030-30625-0_12
+   Juels A, 2010, LECT NOTES COMPUT SC, V6000, P37, DOI 10.1007/978-3-642-12980-3_2
+   Küsters R, 2020, 2020 5TH IEEE EUROPEAN SYMPOSIUM ON SECURITY AND PRIVACY (EUROS&P 2020), P216, DOI 10.1109/EuroSP48549.2020.00022
+   Kulyk O, 2015, LECT NOTES COMPUT SC, V9269, P57, DOI 10.1007/978-3-319-22270-7_4
+   Lipmaa H, 2013, LECT NOTES COMPUT SC, V7966, P645, DOI 10.1007/978-3-642-39212-2_56
+   Neumann S., 2013, INFORMATIK 2013 INF
+   Neumann S, 2012, 2012 SEVENTH INTERNATIONAL CONFERENCE ON AVAILABILITY, RELIABILITY AND SECURITY (ARES), P180, DOI 10.1109/ARES.2012.75
+   Roenne, 2016, INT C ELECT VOTING E
+   Ronne, 2019, ARXIV PREPRINT ARXIV
+   Shamir A, 1999, LECT NOTES COMPUT SC, V1648, P118
+   Spycher O, 2012, LECT NOTES COMPUT SC, V7035, P182
+   Ting, 2008, INT J NETWORK SECURI, V6, P258
+   Wiseman S., 2011, BCS HCI 11 P 25 BCS, P187
+   Zhao H., 2017, P IEEE C COMP VIS PA, VPP, P1
+NR 22
+TC 2
+Z9 2
+U1 1
+U2 3
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 0302-9743
+EI 1611-3349
+BN 978-3-030-60347-2; 978-3-030-60346-5
+J9 LECT NOTES COMPUT SC
+PY 2020
+VL 12455
+BP 50
+EP 66
+DI 10.1007/978-3-030-60347-2_4
+PG 17
+WC Computer Science, Information Systems; Computer Science,
+   Interdisciplinary Applications; Computer Science, Theory & Methods;
+   Political Science; Public Administration
+WE Conference Proceedings Citation Index - Science (CPCI-S); Conference Proceedings Citation Index - Social Science &amp; Humanities (CPCI-SSH)
+SC Computer Science; Government & Law; Public Administration
+GA BS3OK
+UT WOS:000713804000004
+OA Green Submitted
+DA 2025-11-20
+ER
+
+PT C
+AU Giustolisi, R
+   Garjan, MS
+AF Giustolisi, Rosario
+   Garjan, Maryam Sheikhi
+BE Duenas-Cid, D
+   Roenne, P
+   Volkamer, M
+   Budurushi, J
+   Blom, M
+   Rodriguez-Perez, A
+   Spycher-Krivonosova, I
+   Roca, JC
+   Esteve, JB
+TI Efficient Cleansing in Coercion-Resistant Voting
+SO ELECTRONIC VOTING, E-VOTE-ID 2024
+SE Lecture Notes in Computer Science
+LA English
+DT Proceedings Paper
+CT 9th International Joint Conference on Electronic Voting (E-Vote-ID)
+CY OCT 02-04, 2024
+CL Tarragona, SPAIN
+AB Coercion resistance is a strong security property of electronic voting that prevents adversaries from forcing voters to vote in a specific way by using threats or rewards. There exist clever techniques aimed at preventing voter coercion based on fake credentials, but they are either inefficient or cannot support features such as revoting without leaking more information than necessary to coercers. One of the reasons is that invalid ballots cast due to revoting or coercion need to be removed before the tallying. In this paper, we propose a coercion-resistant Internet voting scheme that does not require the removal of invalid ballots, hence avoids the leakage of information, but still supports revoting. The scheme is very efficient and achieves linear tallying.
+C1 [Giustolisi, Rosario] IT Univ Copenhagen, Copenhagen, Denmark.
+   [Garjan, Maryam Sheikhi] Brandenburg Tech Univ Cottbus, Cottbus, Germany.
+C3 IT University Copenhagen; Brandenburg University of Technology Cottbus
+RP Garjan, MS (corresponding author), Brandenburg Tech Univ Cottbus, Cottbus, Germany.
+EM rosg@itu.dk; sheikhig@b-tu.de
+CR [Anonymous], 2015, USENIX Journal of Election Technology and Systems. JETS, P26
+   [Anonymous], 1994, CRYPTO '94
+   Aranha D.F., 2023, Cryptol. ePrint Arch.
+   Araujo R., 2008, DAGSTUHL SEMINAR P
+   Bernhard D., 2016, Tech. rep
+   Bernhard D, 2012, LECT NOTES COMPUT SC, V7658, P626, DOI 10.1007/978-3-642-34961-4_38
+   Clark J, 2012, LECT NOTES COMPUT SC, V7035, P47
+   Clarkson MR, 2008, P IEEE S SECUR PRIV, P354, DOI 10.1109/SP.2008.32
+   Cortier V., 2022, Cryptol. ePrint Arch.
+   Cramer R, 1997, EUR T TELECOMMUN, V8, P481, DOI 10.1002/ett.4460080506
+   ELGAMAL T, 1985, IEEE T INFORM THEORY, V31, P469, DOI 10.1109/TIT.1985.1057074
+   EU Commission, 2023, Compendium of e-voting and other ICT practices
+   Giustolisi R., 2024, Scheme prototype
+   Giustolisi R., 2024, 2024 IEEE S SEC PRIV
+   Grewal GS, 2013, P IEEE S SECUR PRIV, P367, DOI 10.1109/SP.2013.32
+   Haghighat A.T., 2013, Privacy, Security and Trust
+   Haines T., 2023, ACM SAC'23
+   Haines T., 2019, IACR Cryptol. ePrint Arch., V822
+   Juels Ari, 2005, ACM WORKSH PRIV EL S
+   Kulyk O, 2015, LECT NOTES COMPUT SC, V9269, P57, DOI 10.1007/978-3-319-22270-7_4
+   Kusters R., 2010, IEEE Computer Security Foundations
+   Locher P, 2016, LECT NOTES COMPUT SC, V9604, P161, DOI 10.1007/978-3-662-53357-4_11
+   Lueks W., 2020, USENIX Security
+   Lueks W., 2019, WPES
+   Muller J., 2024, P PRIV ENH TECHN
+   Ronne PB, 2019, Arxiv, DOI arXiv:1901.02560
+   Schoenmakers B, 2004, LECT NOTES COMPUT SC, V3329, P119
+   Smyth B., 2019, Cryptology ePrint Archive
+   Spycher O., 2012, Gesellschaft f ur Informatik eV
+   Spycher O, 2012, LECT NOTES COMPUT SC, V7035, P182
+   Weber SG, 2007, ARES 2007: SECOND INTERNATIONAL CONFERENCE ON AVAILABILITY, RELIABILITY AND SECURITY, PROCEEDINGS, P908
+NR 31
+TC 1
+Z9 1
+U1 0
+U2 0
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 0302-9743
+EI 1611-3349
+BN 978-3-031-72243-1; 978-3-031-72244-8
+J9 LECT NOTES COMPUT SC
+PY 2025
+VL 15014
+BP 72
+EP 88
+DI 10.1007/978-3-031-72244-8_5
+PG 17
+WC Computer Science, Information Systems; Computer Science,
+   Interdisciplinary Applications; Computer Science, Theory & Methods;
+   Political Science; Public Administration
+WE Conference Proceedings Citation Index - Science (CPCI-S); Conference Proceedings Citation Index - Social Science &amp; Humanities (CPCI-SSH)
+SC Computer Science; Government & Law; Public Administration
+GA BX8OF
+UT WOS:001334877600005
+OA hybrid
+DA 2025-11-20
+ER
+
+PT J
+AU Han, QD
+   Zhang, XS
+   Lu, SQ
+   Zhao, XQ
+   Yan, Z
+AF Han, Qingdi
+   Zhang, Xiaoshuai
+   Lu, Siqi
+   Zhao, Xiaoqi
+   Yan, Zhen
+TI An SGX-based online voting protocol with maximum voter privacy
+SO JOURNAL OF SYSTEMS ARCHITECTURE
+LA English
+DT Article
+DE E-voting; Intel SGX; Homomorphic encryption; Zero knowledge proof
+AB Electronic voting (E-voting), a crucial method in modern society, balances efficiency with the need for equity, reliability, and privacy to accurately record votes and maintain democracy. However, there is the challenge of potential leakage of voting information in scenarios where administrators of voting system may act maliciously. Moreover, contemporary collaborative counting methods face a significant increase in the cost of storage and heightened communication overhead in large-scale e-voting. In response, this paper proposes an innovative online voting protocol that integrates Intel SGX, homomorphic encryption, and zero-knowledge proof. This protocol aims to cut down the cost of communication and storage while maximizing the protection of voter privacy. The protocol relies on SGX to provide a trusted execution environment for the voting process, guarding against malicious attacks from external software or high-privileged administrators. In the proposed protocol, voters apply homomorphic encryption algorithms to locally encrypt their ballots, no longer relying on other entities (such as the voting system or SGX) for encryption. Then the encrypted ballots are submitted to SGX to mitigate the threat of data leakage in SGX. Through the adoption of zero-knowledge proof technology, the voting protocol can verify the legitimacy of votes without revealing their content. The proposed solution introduces the SGXVOT architecture, comprising two enclaves - Enclave V responsible for tallying individual encrypted votes, and Enclave T responsible for decrypting and publishing voting results. This design ensures that individual voters' ballots remain in ciphertext, preserving the confidentiality of votes and voter privacy. Additionally, the protocol incorporates a "One-Time Pad"encryption communication protocol to guarantee the confidentiality of communication messages between Enclave V and Enclave T. The thorough security analysis and performance evaluation demonstrate the superior performance of the proposed solution in terms of security, practicality, and scalability.
+C1 [Han, Qingdi; Zhang, Xiaoshuai; Yan, Zhen] Ocean Univ China, Dept Informat Sci & Engn, Qingdao 266100, Peoples R China.
+   [Lu, Siqi] Informat Engn Univ, Key Lab Network Cryptog Technol Henan, Zhengzhou 450001, Peoples R China.
+   [Zhao, Xiaoqi] Qingdao Univ Technol, Sch Informat & Control Engn, Qingdao 266520, Peoples R China.
+C3 Ocean University of China; PLA Information Engineering University;
+   Qingdao University of Technology
+RP Zhang, XS (corresponding author), Ocean Univ China, Dept Informat Sci & Engn, Qingdao 266100, Peoples R China.
+EM x.zhang@ouc.edu.cn
+RI Xiaoqi, Zhao/HTO-7501-2023; Zhao, Xiaoqi/HTO-7501-2023; han,
+   qingdi/MSZ-2729-2025
+OI Xiaoqi, Zhao/0000-0002-9608-5883; ZHANG, XIAOSHUAI/0000-0002-5155-122X;
+   Siqi, Lu/0000-0002-8593-9636; 
+CR Alvi ST, 2022, J KING SAUD UNIV-COM, V34, P6855, DOI 10.1016/j.jksuci.2022.06.014
+   Boneh D, 2004, LECT NOTES COMPUT SC, V3027, P56
+   Brasser Ferdinand., 2017, P USENIX WORKSH OFF
+   Camenisch J, 2008, LECT NOTES COMPUT SC, V5350, P234, DOI 10.1007/978-3-540-89255-7_15
+   CHAUM DL, 1981, COMMUN ACM, V24, P84, DOI 10.1145/358549.358563
+   Chen JH, 2017, J ARTIF INTELL RES, V60, P937, DOI 10.1613/jair.5515
+   Corò F, 2022, INFORM COMPUT, V289, DOI 10.1016/j.ic.2022.104940
+   Costan Victor., 2016, CRYPTOLOGY EPRINT AR
+   Elaine Barker, 2020, NIST Special Publ., V800
+   Estonian National Electoral Committee, about us
+   Farzaliyev V, 2023, IET INFORM SECUR, V17, P18, DOI 10.1049/ise2.12089
+   Fei SF, 2021, ACM COMPUT SURV, V54, DOI 10.1145/3456631
+   Fujioka A., 1993, Advances in Cryptology - AUSCRYPT '92. Workshop on the Theory and Application of Cryptographic Techniques Proceedings, P244
+   Fusco F., 2018, KMIS, P221
+   Gibson JP, 2016, ANN TELECOMMUN, V71, P279, DOI 10.1007/s12243-016-0525-8
+   Gritzalis DA, 2002, COMPUT SECUR, V21, P539, DOI 10.1016/S0167-4048(02)01014-3
+   Groth J, 2004, LECT NOTES COMPUT SC, V3110, P90
+   Gueron S, 2016, IEEE SECUR PRIV, V14, P54, DOI 10.1109/MSP.2016.124
+   Hao F, 2010, IET INFORM SECUR, V4, P62, DOI 10.1049/iet-ifs.2008.0127
+   Huang J, 2022, IEEE T NETW SCI ENG, V9, P3808, DOI 10.1109/TNSE.2022.3190909
+   Kiayias A., 2002, Public Key Cryptography. 4th International Workshop on Practice and Theory in Public Key Cryptosystems, PKC 2002. Proceedings (Lecture Notes in Computer Science Vol.2274), P141
+   Liu YN, 2019, WORLD WIDE WEB, V22, P1657, DOI 10.1007/s11280-018-0575-0
+   Lu SQ, 2022, SCI CHINA INFORM SCI, V65, DOI 10.1007/s11432-021-3393-x
+   Lu SQ, 2023, IEEE T COMPUT SOC SY, V10, P1039, DOI 10.1109/TCSS.2022.3162869
+   Peters D, 2018, PROCEEDINGS OF THE 17TH INTERNATIONAL CONFERENCE ON AUTONOMOUS AGENTS AND MULTIAGENT SYSTEMS (AAMAS' 18), P1549
+   Singh A, 2022, J SYST ARCHITECT, V127, DOI 10.1016/j.sysarc.2022.102503
+   theguardian, NSW election result could be challenged over iVote security flaw
+   Vladucu MV, 2023, IEEE ACCESS, V11, P23293, DOI 10.1109/ACCESS.2023.3253682
+   Wang WH, 2017, CCS'17: PROCEEDINGS OF THE 2017 ACM SIGSAC CONFERENCE ON COMPUTER AND COMMUNICATIONS SECURITY, P2421, DOI 10.1145/3133956.3134038
+   Yang XC, 2021, IEEE INT CONF TRUST, P139, DOI 10.1109/TrustCom53373.2021.00036
+   Yang XC, 2021, INFORM SCIENCES, V543, P125, DOI 10.1016/j.ins.2020.07.023
+   Yang XC, 2020, FUTURE GENER COMP SY, V112, P859, DOI 10.1016/j.future.2020.06.051
+   Yue Xiaohan, 2023, VeriVoting: A decentralized, verifiable and privacy-preserving scheme for weighted voting
+   Zhang WB, 2018, PROCEEDINGS 2018 IEEE 11TH INTERNATIONAL CONFERENCE ON CLOUD COMPUTING (CLOUD), P401, DOI 10.1109/CLOUD.2018.00057
+NR 34
+TC 1
+Z9 1
+U1 3
+U2 6
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 1383-7621
+EI 1873-6165
+J9 J SYST ARCHITECT
+JI J. Syst. Architect.
+PD JUN
+PY 2024
+VL 151
+AR 103144
+DI 10.1016/j.sysarc.2024.103144
+EA APR 2024
+PG 12
+WC Computer Science, Hardware & Architecture; Computer Science, Software
+   Engineering
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Computer Science
+GA SG6M0
+UT WOS:001233342400001
+DA 2025-11-20
+ER
+
+PT J
+AU Rathika, S
+   Gayathri, R
+AF Rathika, S.
+   Gayathri, R.
+TI An ensemble of monarchy butterfly optimization based encryption
+   techniques on image steganography for data hiding in thermal images
+SO MULTIMEDIA TOOLS AND APPLICATIONS
+LA English
+DT Article
+DE Image steganography; Thermal images; Security; Optimal pixel selection;
+   Monarchy butterfly optimization algorithm
+ID CRYPTANALYSIS; ALGORITHM
+AB Information security provides a process of hiding secret information to protect the sensitive data from attackers. To achieve secure data transmission, data hiding and steganographic techniques are being developed. Image steganography is commonly employed in several areas such as telecommunication, mobile computing, online voting system, image retrieval, and privacy of patient details. Furthermore, encryption technique acts as an integral part to save the original data from illegal access. In this view, this paper presents a new monarchy butterfly optimization algorithm-based encryption with image steganography for hiding information in thermal images (MBOA-ESTI). The presented MBOA-ESTI method includes various phases of operations like ensemble of encryption, channel extraction, optimal pixel selection, embedded process, and decomposition. Then, the encryption of the images takes place by using three encryption systems Rubik's Cube Principle (RCP), Henon map (HM), and improved chaotic map (ICM). In addition, the presented MBOA-ESTI model involves multilevel discrete wavelet transform (DWT) based image decomposition process. In addition, the optimum pixel selection technique is performed using MBOA over the encrypted R, G, and B channels. For investigating the outcome of the MBOA-ESTI technique, wide-ranging experimentation was performed using MATLAB R2014a tool and the outcomes are examined interms of discrete performance measures. The experimental outcomes pointed out that the MBOA-ESTI model has resulted in an average mean square error (MSE) of 0.093, peak signal to noise ratio (PSNR) of 58.46dB, and normalized cross-correlation (NCC) of 0.997.
+C1 [Rathika, S.; Gayathri, R.] Annamalai Univ, Dept Elect & Commun Engn, Chidambaram 608002, Tamil Nadu, India.
+C3 Annamalai University
+RP Rathika, S (corresponding author), Annamalai Univ, Dept Elect & Commun Engn, Chidambaram 608002, Tamil Nadu, India.
+EM rathikaresearchscholar@gmail.com; drrgayathriau@gmail.com
+RI R, Gayathri/AGZ-2078-2022
+CR Ambika, 2022, International Journal of Computers and Applications, P1140, DOI [10.1080/1206212x.2019.1692442, 10.1080/1206212X.2019.1692442]
+   Amuthadevi C, 2021, J AMB INTEL HUM COMP, DOI 10.1007/s12652-020-02724-2
+   Atee HA, 2017, PLOS ONE, V12, DOI 10.1371/journal.pone.0170329
+   Daniel E, 2017, BIOMED SIGNAL PROCES, V34, P36, DOI 10.1016/j.bspc.2017.01.003
+   Dhiman G, 2021, ENG COMPUT-GERMANY, V37, P323, DOI 10.1007/s00366-019-00826-w
+   Dhiman G, 2019, KNOWL-BASED SYST, V165, P169, DOI 10.1016/j.knosys.2018.11.024
+   Douglas M, 2018, MULTIMED TOOLS APPL, V77, P17333, DOI 10.1007/s11042-017-5308-3
+   Duan XT, 2018, CMC-COMPUT MATER CON, V55, P483, DOI 10.3970/cmc.2018.01798
+   Hashim FA, 2021, APPL INTELL, V51, P1531, DOI 10.1007/s10489-020-01893-z
+   HENON M, 1976, COMMUN MATH PHYS, V50, P69, DOI 10.1007/BF01608556
+   Hussain M, 2018, SIGNAL PROCESS-IMAGE, V65, P46, DOI 10.1016/j.image.2018.03.012
+   Kamil S, 2021, IEEE ACCESS, V9, P168981, DOI 10.1109/ACCESS.2021.3133672
+   Kaur A, 2015, International Journal of Computer Applications, V122, P18, DOI 10.5120/21681-4780
+   Li M, 2019, IEEE ACCESS, V7, P145798, DOI 10.1109/ACCESS.2019.2945578
+   Loukhaoukha K, 2012, J ELECTR COMPUT ENG, V2012, DOI 10.1155/2012/173931
+   Mandal PC, 2022, MULTIMED TOOLS APPL, V81, P5325, DOI 10.1007/s11042-021-11605-5
+   Melman Anna, 2021, 2021 XVII International Symposium "Problems of Redundancy in Information and Control Systems" (REDUNDANCY), P49, DOI 10.1109/REDUNDANCY52534.2021.9606459
+   Priyanka BG, 2014, 2014 INTERNATIONAL CONFERENCE ON CONTEMPORARY COMPUTING AND INFORMATICS (IC3I), P1351, DOI 10.1109/IC3I.2014.7019666
+   Rajput SS, 2019, APPL INTELL, V49, P1324, DOI 10.1007/s10489-018-1340-x
+   Rathika S, 2021, MATER TODAY-PROC, V46, P10164, DOI 10.1016/j.matpr.2020.10.874
+   Reddy H.M., 2009, INT J COMPUTER SCI S, V3, P462
+   Sheela SJ, 2018, MULTIMED TOOLS APPL, V77, P25223, DOI 10.1007/s11042-018-5782-2
+   Sun L, 2019, COMPLEXITY, DOI 10.1155/2019/4182148
+   Teja JD, 2017, International Journal of Scientific Research in Computer Science Engineering and Information Technology, V2, P104, DOI 10.32628/cseit174414
+   Thanki R, 2018, J INF SECUR APPL, V40, P92, DOI 10.1016/j.jisa.2018.03.004
+   Vatsa M, 2006, IEICE ELECTRON EXPR, V3, P23, DOI 10.1587/elex.3.23
+   Vijayan DS, 2020, J AMB INTEL HUM COMP, DOI 10.1007/s12652-020-02666-9
+   Wang RZ, 2000, ELECTRON LETT, V36, P2069, DOI 10.1049/el:20001429
+   Wang S, 2008, IEEE COMMUN LETT, V12, P149, DOI 10.1109/LCOMM.2008.071307
+   Zhou ZL, 2018, IEEE ACCESS, V6, P15021, DOI 10.1109/ACCESS.2018.2811722
+NR 30
+TC 1
+Z9 3
+U1 2
+U2 4
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1380-7501
+EI 1573-7721
+J9 MULTIMED TOOLS APPL
+JI Multimed. Tools Appl.
+PD DEC
+PY 2023
+VL 82
+IS 30
+BP 47235
+EP 47252
+DI 10.1007/s11042-023-15693-3
+EA MAY 2023
+PG 18
+WC Computer Science, Information Systems; Computer Science, Software
+   Engineering; Computer Science, Theory & Methods; Engineering, Electrical
+   & Electronic
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Computer Science; Engineering
+GA Z9FI2
+UT WOS:000984658600001
+DA 2025-11-20
+ER
+
+PT C
+AU Parbat, T
+   Banerjee, A
+   Terjee, AC
+AF Parbat, Tanusree
+   Banerjee, Aniket
+   Terjee, Ayantika Chat
+BE Muthukkumarasamy, V
+   Sudarsan, SD
+   Shyamasundar, RK
+TI Democracy in Your Hands!: Practical Multi-key Homomorphic
+   E-Voting
+SO INFORMATION SYSTEMS SECURITY, ICISS 2023
+SE Lecture Notes in Computer Science
+LA English
+DT Proceedings Paper
+CT 19th International Conference on Information Systems Security (ICISS)
+CY DEC 16-20, 2023
+CL Natl Inst Technol, Raipur, INDIA
+SP IIT Bombay, C DAC, NTPC
+HO Natl Inst Technol
+DE E-voting; Security; Privacy; Homomorphic Encryption; Multi-key
+AB Digitization of elections demands end-to-end security of the overall process and hence, cyber security for elections is an important issue. Distributed blockchain technology in e-voting can only provide verification advantages. However, voters' authenticity, data confidentiality, and intermediaries represent other major concerns in this regard. Existing secure voting frameworks either provide final voting results with the help of trusted intermediaries or provide vote verifiability in an unencrypted domain. At present, there is no such realistic mechanism to assure full security of vote casting and result declaration from cyber threats. Even Microsoft's ElectionGuard is not free from post-quantum attacks due to additive ElGamal cryptosystem. To achieve effective guards against cyberattacks, we propose a voting framework, which reduces vote transmission overhead on a per-voter basis and supports post-quantum secure automated vote counting and winner selection without any manual intervention with the aid of multi-key homomorphic encryption. Along with suitable preventive measures against double voting, vote rigging, and coercion effects, we include a secure result deciphering process evading the possibility of result alteration using multi-key approach. Though our scheme is scalable for smaller as well as large organizations/communities, encrypted processing is inherently performance-costly. Hence, to reduce the overall timing overhead, encrypted hierarchical processing with zonal segregation and parallel computation have been incorporated. Our proposed scheme demonstrates party-specific vote counting without rank generation within 4 days and 22 h and vote counting with winner rank calculation within 5 days (for four candidates and one hundred thousand voters) without any manual intervention with the support of suitable distributed computing.
+C1 [Parbat, Tanusree; Terjee, Ayantika Chat] Indian Inst Technol Kharagpur, Kharagpur, W Bengal, India.
+   [Banerjee, Aniket] Indian Inst Engn Sci & Technol, Sibpur, India.
+C3 Indian Institute of Technology System (IIT System); Indian Institute of
+   Technology (IIT) - Kharagpur; Indian Institute of Engineering Science
+   Technology Shibpur (IIEST)
+RP Parbat, T (corresponding author), Indian Inst Technol Kharagpur, Kharagpur, W Bengal, India.
+EM tanusree.parbat@iitkgp.ac.in
+OI Parbat, Tanusree/0000-0002-0618-9591; Chatterjee,
+   Ayantika/0000-0001-6368-0718
+CR Anane R, 2007, 9TH IEEE INTERNATIONAL CONFERENCE ON E-COMMERCE TECHNOLOGY/4TH IEEE INTERNATIONAL CONFERENCE ON ENTERPRISE COMPUTING, E-COMMERCE AND E-SERVICES, P382, DOI 10.1109/CEC-EEE.2007.42
+   Anggriane SM, 2016, 2016 INTERNATIONAL CONFERENCE ON INFORMATICS AND COMPUTING (ICIC), P338, DOI 10.1109/IAC.2016.7905741
+   Barman S, 2014, 2014 INTERNATIONAL CONFERENCE ON HIGH PERFORMANCE COMPUTING AND APPLICATIONS (ICHPCA)
+   Bistarelli S., 2017, Proceedings of the Symposium on Applied Computing - SAC, V17, P1836, DOI DOI 10.1145/3019612.3019841
+   Blaze M, 2018, DEF CON 26
+   Boyen X, 2021, 2021 IEEE EUROPEAN SYMPOSIUM ON SECURITY AND PRIVACY (EUROS&P 2021), P272, DOI 10.1109/EuroSP51992.2021.00027
+   Chatterjee A, 2020, IEEE T SERV COMPUT, V13, P545, DOI 10.1109/TSC.2017.2711018
+   Chen H, 2019, LECT NOTES COMPUT SC, V11922, P446, DOI 10.1007/978-3-030-34621-8_16
+   Chillotti I., ABOUT US
+   Chillotti I, 2020, J CRYPTOL, V33, P34, DOI 10.1007/s00145-019-09319-x
+   Chillotti I, 2016, LECT NOTES COMPUT SC, V9606, P245, DOI 10.1007/978-3-319-29360-8_16
+   Gentry C.Boneh., 2009, FULLY HOMOMORPHIC EN, V20
+   Hardwick FS, 2018, IEEE 2018 INTERNATIONAL CONGRESS ON CYBERMATICS / 2018 IEEE CONFERENCES ON INTERNET OF THINGS, GREEN COMPUTING AND COMMUNICATIONS, CYBER, PHYSICAL AND SOCIAL COMPUTING, SMART DATA, BLOCKCHAIN, COMPUTER AND INFORMATION TECHNOLOGY, P1561, DOI 10.1109/Cybermatics_2018.2018.00262
+   Jabbar Ihsan, 2017, International Journal of Network Security, V19, P694, DOI 10.6633/IJNS.201709.19(5).06
+   Masiarek A., ABOUT US
+   Mccorry P., 2021, Digit. Threats Res. Pract. (DTRAP), V2, P1
+   Olembo M.M., 2014, WORKSH US SEC
+   Park S, 2021, J CYBERSECURITY, V7, DOI 10.1093/cybsec/tyaa025
+   Shinde S.S., 2013, Int. J. Emerg. Technol. Adv. Eng., V3, P203
+   Specter MA, 2020, PROCEEDINGS OF THE 29TH USENIX SECURITY SYMPOSIUM, P1535
+   Watson C.I., 2007, USERS GUIDE NIST BIO
+NR 21
+TC 1
+Z9 1
+U1 1
+U2 2
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 0302-9743
+EI 1611-3349
+BN 978-3-031-49098-9; 978-3-031-49099-6
+J9 LECT NOTES COMPUT SC
+PY 2023
+VL 14424
+BP 259
+EP 271
+DI 10.1007/978-3-031-49099-6_16
+PG 13
+WC Computer Science, Software Engineering; Computer Science, Theory &
+   Methods; Telecommunications
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science; Telecommunications
+GA BW5IK
+UT WOS:001161458700016
+DA 2025-11-20
+ER
+
+PT J
+AU Delaune, S
+   Lallemand, J
+   Outrey, A
+AF Delaune, Stephanie
+   Lallemand, Joseph
+   Outrey, Arthur
+TI Is one vote really enough? Vote privacy with re-voting and a dishonest
+   ballot box
+SO JOURNAL OF COMPUTER SECURITY
+LA English
+DT Article
+DE electronic voting; formal methods; protocol verification; privacy
+AB Electronic voting promises the possibility of convenient and efficient systems for recording and tallying votes in an election. To be widely adopted, ensuring the security of the cryptographic protocols used in e-voting is of paramount importance. However, the security analysis of this type of protocol raises a number of challenges, and they are often out of reach of existing verification tools. In this paper, we study vote privacy, a central security property that should be satisfied by any e-voting system. More precisely, we propose the first formalisation of the recent BPRIV notion in the symbolic setting. To ease the formal security analysis of this notion, we propose a reduction result allowing one to bind the number of voters and ballots needed to mount an attack. We first consider the case where voters do not revote, and the ballot box is trusted. Then, we extend this reduction result, as well as our formalisation of BPRIV, to account for the case of re-voting and a dishonest ballot box. We apply our reduction results to a number of case studies including several versions of Helios, Belenios, JCJ/Civitas, and Pr & ecirc;t-& agrave;-Voter. For some of these protocols, thanks to our result, we are able to conduct the analysis relying on the automatic tool Proverif.
+C1 [Delaune, Stephanie; Lallemand, Joseph; Outrey, Arthur] Univ Rennes, CNRS, IRISA, Rennes, France.
+   [Outrey, Arthur] ENS Lyon, Lyon, France.
+C3 Universite de Rennes; Centre National de la Recherche Scientifique
+   (CNRS); Ecole Normale Superieure de Lyon (ENS de LYON)
+RP Lallemand, J (corresponding author), Univ Rennes, CNRS, IRISA, Rennes, France.
+EM joseph.lallemand@irisa.fr
+FU French National Research Agency [ANR-22-PECY-0006]
+FX The author(s) disclosed receipt of the following financial support for
+   the research, authorship, and/or publication of this article: Thiswork
+   received funding from the France 2030 program managed by the French
+   National Research Agency under grant agreement No.ANR-22-PECY-0006.
+CR Abadi M, 2001, ACM SIGPLAN NOTICES, V36, P104, DOI 10.1145/373243.360213
+   Adida Ben., 2008, USENIX Security Symposium, V17, P335
+   Arapinis M, 2016, LECT NOTES COMPUT SC, V9879, P241, DOI 10.1007/978-3-319-45741-3_13
+   Backes M, 2008, CSF 2008: 21ST IEEE COMPUTER SECURITY FOUNDATIONS SYMPOSIUM, PROCEEDINGS, P195, DOI 10.1109/CSF.2008.26
+   Basin D, 2018, P IEEE COMPUT SECUR, P283, DOI 10.1109/CSF.2018.00028
+   Basin D, 2015, CCS'15: PROCEEDINGS OF THE 22ND ACM SIGSAC CONFERENCE ON COMPUTER AND COMMUNICATIONS SECURITY, P1144, DOI 10.1145/2810103.2813662
+   Benaloh J., 1987, Verifiable secret-ballot elections
+   Benaloh JoshCohen., 1986, P 5 ANN ACM S PRINCI, P52
+   Bernhard D, 2015, P IEEE S SECUR PRIV, P499, DOI 10.1109/SP.2015.37
+   Blanchet B, 2005, IEEE S LOG, P331
+   Blanchet B, 2001, P IEEE CSFW, P82, DOI 10.1109/CSFW.2001.930138
+   Blanchet B, 2018, J COMPUT SECUR, V26, P367, DOI 10.3233/JCS-171013
+   Blanchet B, 2016, Foundations and Trends® in Privacy and Security, V1, P1, DOI [10.1561/3300000004, 10.1561/3300000004, DOI 10.1561/3300000004]
+   Chaidos P., 2016, Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security, P1614, DOI DOI 10.1145/2976749.2978337
+   Chaum D, 2005, LECT NOTES COMPUT SC, V3679, P118
+   Cheval V, 2023, P IEEE COMPUT SECUR, P184, DOI 10.1109/CSF57540.2023.00036
+   Clarkson MR, 2008, P IEEE S SECUR PRIV, P354, DOI 10.1109/SP.2008.32
+   Comon-Lundh H, 2003, LECT NOTES COMPUT SC, V2618, P99
+   Cortier V., 2019, LNCS, V11565, P214, DOI [10.1007/978-3-030-19052-114, DOI 10.1007/978-3-030-19052-114]
+   Cortier V, 2020, P IEEE COMPUT SECUR, P17, DOI 10.1109/CSF49147.2020.00010
+   Cortier V, 2019, P IEEE COMPUT SECUR, P367, DOI 10.1109/CSF.2019.00032
+   Cortier V, 2018, 2018 3RD IEEE EUROPEAN SYMPOSIUM ON SECURITY AND PRIVACY (EUROS&P 2018), P430, DOI 10.1109/EuroSP.2018.00037
+   Cortier V, 2017, J COMPUT SECUR, V25, P21, DOI 10.3233/JCS-15777
+   Cortier V, 2016, LECT NOTES COMPUT SC, V9635, P211, DOI 10.1007/978-3-662-49635-0_11
+   Cortier V, 2013, J COMPUT SECUR, V21, P89, DOI 10.3233/JCS-2012-0458
+   D'Osualdo E, 2017, P IEEE CSFW, P464, DOI 10.1109/CSF.2017.32
+   Delaune S., 2023, ONE VOTE IS ENOUGH A
+   Delaune S, 2022, LECT NOTES COMPUT SC, V13554, P173, DOI 10.1007/978-3-031-17140-6_9
+   Delaune S, 2017, J LOG ALGEBR METHODS, V87, P127, DOI 10.1016/j.jlamp.2016.10.005
+   Delaune S, 2009, J COMPUT SECUR, V17, P435, DOI 10.3233/JCS-2009-0340
+   Froschle S., LNCS, V9036, P176
+   Juels A, 2010, LECT NOTES COMPUT SC, V6000, P37, DOI 10.1007/978-3-642-12980-3_2
+   Meier Simon, 2013, Computer Aided Verification. 25th International Conference, CAV 2013. Proceedings. LNCS 8044, P696, DOI 10.1007/978-3-642-39799-8_48
+   Mödersheim S, 2019, ACM T PRIV SECUR, V22, DOI 10.1145/3289255
+   Ryan PYA, 2006, LECT NOTES COMPUT SC, V4189, P313
+NR 35
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SAGE PUBLICATIONS INC
+PI THOUSAND OAKS
+PA 2455 TELLER RD, THOUSAND OAKS, CA 91320 USA
+SN 0926-227X
+EI 1875-8924
+J9 J COMPUT SECUR
+JI J. Comput. Secur.
+PD SEP
+PY 2025
+VL 33
+IS 5
+BP 283
+EP 315
+DI 10.1177/0926227X251335296
+EA JUN 2025
+PG 33
+WC Computer Science, Information Systems
+WE Emerging Sources Citation Index (ESCI)
+SC Computer Science
+GA 6TJ7Y
+UT WOS:001511418400001
+OA Green Submitted
+DA 2025-11-20
+ER
+
+PT C
+AU Zeng, CR
+   Zhang, Y
+   Song, YQ
+   He, XY
+   Liu, PF
+   He, YY
+   Li, HW
+AF Zeng, Chenrui
+   Zhang, Yuan
+   Song, Yaqing
+   He, Xinyu
+   Liu, Pengfei
+   He, Yuanyuan
+   Li, Hongwei
+GP IEEE
+TI Verifiable Weighted Electronic Voting against Tally Leakage for Popular
+   Voting Methods
+SO 2025 34TH INTERNATIONAL CONFERENCE ON COMPUTER COMMUNICATIONS AND
+   NETWORKS, ICCCN
+SE IEEE International Conference on Computer Communications and Networks
+LA English
+DT Proceedings Paper
+CT 34th International Conference on Computer Communications and
+   Networks-ICCCN-Annual
+CY AUG 04-07, 2025
+CL JAPAN
+SP Institute of Electrical and Electronics Engineers Inc
+DE Weighted e-voting; Privacy preservation; Verifiability; Tally-hiding
+AB Electronic voting (e-voting) plays a key role in modern democratic processes, especially in scenarios where consensus or collective decisions need to be reached. Existing e-voting schemes share the same paradigm of "one-personone-vote" and treat all voters equally, which is unsatisfactory for weighted settings where every voter is associated with a weight. Furthermore, existing schemes suffer from critical threats towards voters' privacy and voting results, which becomes a major hindrance towards the broad adoption of e-voting schemes in reality. In this paper, we propose a verifiable e-voting scheme, dubbed WEAPT, to support weighted e-voting with a strong security guarantee. The key technique behind WEAPT is a threshold weighted matrix aggregation mechanism with public verifiability and privacy preservation, where the Shamir secret sharing scheme, Pedersen vector commitment scheme, and zeroknowledge proofs are deployed. We provide security analyses to show that WEAPT is secure against internal and external adversaries. We implement a WEAPT prototype and conduct a comprehensive performance evaluation, which demonstrates its practical efficiency.
+C1 [Zeng, Chenrui; Zhang, Yuan; Song, Yaqing; He, Xinyu; Liu, Pengfei; Li, Hongwei] Univ Elect Sci & Technol China, Sch Comp Sci & Engn, Chengdu, Peoples R China.
+   [He, Yuanyuan] Huazhong Univ Sci & Technol, Sch Cyber Sci & Engn, Wuhan, Peoples R China.
+C3 University of Electronic Science & Technology of China; Huazhong
+   University of Science & Technology
+RP Zhang, Y (corresponding author), Univ Elect Sci & Technol China, Sch Comp Sci & Engn, Chengdu, Peoples R China.
+EM zcr_shan@163.com; zhangyuan@uestc.edu.cn; YaqingS@163.com;
+   xyhe@std.uestc.edu.cn; liupengfei@uestc.edu.cn;
+   yuanyuan_cse@hust.edu.cn; hongweili@uestc.edu.cn
+FU National Key Research and Development Program of China [2023YFB3106503];
+   National Nature Science Foundation of China [62472074]; Young Elite
+   Scientists Sponsorship Program by China Association for Science and
+   Technology (CAST) [2022QNR-C001]; Sichuan Science and Technology Program
+   [2022ZDZX0038, 2023ZYD0142, 24NSFSC2271, 2024ZHCG0188, 2020JDTD0007]
+FX This work was supported in part by the National Key Research and
+   Development Program of China under Grant 2023YFB3106503; in part by the
+   National Nature Science Foundation of China under Grant 62472074; in
+   part by the Young Elite Scientists Sponsorship Program by China
+   Association for Science and Technology (CAST) under Grant 2022QNR-C001;
+   and in part by Sichuan Science and Technology Program under Grant
+   2022ZDZX0038, Grant 2023ZYD0142, Grant 24NSFSC2271, Grant 2024ZHCG0188,
+   and Grant 2020JDTD0007.
+CR Attema T, 2022, LECT NOTES COMPUT SC, V13747, P173, DOI 10.1007/978-3-031-22318-1_7
+   Bellare M., 1993, P 1 ACM C COMPUTER C, P62
+   Benaloh J, 2009, IEEE T INF FOREN SEC, V4, P685, DOI 10.1109/TIFS.2009.2033757
+   Bootle J, 2015, LECT NOTES COMPUT SC, V9326, P243, DOI 10.1007/978-3-319-24174-6_13
+   Canard S, 2018, LECT NOTES COMPUT SC, V11099, P331, DOI 10.1007/978-3-319-98989-1_17
+   Cohen J. D., 1986, Improving privacy in cryptographic elections
+   Cortier V, 2022, LECT NOTES COMPUT SC, V13555, P631, DOI 10.1007/978-3-031-17146-8_31
+   Cortier V, 2016, P IEEE S SECUR PRIV, P779, DOI 10.1109/SP.2016.52
+   FIAT A, 1987, LECT NOTES COMPUT SC, V263, P186, DOI 10.1007/3-540-47721-7_12
+   Grewal GS, 2013, P IEEE S SECUR PRIV, P367, DOI 10.1109/SP.2013.32
+   Groth J, 2016, LECT NOTES COMPUT SC, V9666, P305, DOI 10.1007/978-3-662-49896-5_11
+   Haines T., 2023, PETS
+   Harrison L, 2024, PROCEEDINGS OF THE 19TH ACM ASIA CONFERENCE ON COMPUTER AND COMMUNICATIONS SECURITY, ACM ASIACCS 2024, P742, DOI 10.1145/3634737.3637652
+   Hevia A, 2002, LECT NOTES COMPUT SC, V2286, P415, DOI 10.1007/3-540-45995-2_37
+   Huber Nicolas, 2022, CCS '22: Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security, P1443, DOI 10.1145/3548606.3560701
+   Katz J., 2007, INTRO MODERN CRYPTOG
+   Kiayias A, 2017, LECT NOTES COMPUT SC, V10401, P357, DOI 10.1007/978-3-319-63688-7_12
+   Kiayias A, 2015, CCS'15: PROCEEDINGS OF THE 22ND ACM SIGSAC CONFERENCE ON COMPUTER AND COMMUNICATIONS SECURITY, P352, DOI 10.1145/2810103.2813727
+   Küsters R, 2020, 2020 5TH IEEE EUROPEAN SYMPOSIUM ON SECURITY AND PRIVACY (EUROS&P 2020), P216, DOI 10.1109/EuroSP48549.2020.00022
+   Li H., 2014, IEEE ICCCN, P1
+   Li MQ, 2025, IEEE T DEPEND SECURE, V22, P1596, DOI 10.1109/TDSC.2024.3446392
+   Li SY, 2024, IEEE T INF FOREN SEC, V19, P6425, DOI 10.1109/TIFS.2024.3416049
+   Lu SQ, 2023, IEEE T COMPUT SOC SY, V10, P1039, DOI 10.1109/TCSS.2022.3162869
+   Mestel D, 2022, P IEEE COMPUT SECUR, P179, DOI 10.1109/CSF54842.2022.9979167
+   Panja S, 2020, IEEE T ENG MANAGE, V67, P1323, DOI 10.1109/TEM.2020.2986371
+   PEDERSEN TP, 1992, LECT NOTES COMPUT SC, V576, P129
+   SHAMIR A, 1979, COMMUN ACM, V22, P612, DOI 10.1145/359168.359176
+   Springall D, 2014, CCS'14: PROCEEDINGS OF THE 21ST ACM CONFERENCE ON COMPUTER AND COMMUNICATIONS SECURITY, P703, DOI 10.1145/2660267.2660315
+   Wabartha C., 2023, ESORICS, P209
+   Wang ZK, 2022, IEEE GLOB COMM CONF, P2585, DOI 10.1109/GLOBECOM48099.2022.10001590
+   Zhang JY, 2025, IEEE INTERNET THINGS, V12, P8626, DOI 10.1109/JIOT.2024.3507366
+   Zhang XY, 2022, IEEE T DEPEND SECURE, V19, P3607, DOI 10.1109/TDSC.2021.3103336
+NR 32
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 1095-2055
+BN 979-8-3315-0899-9; 979-8-3315-0898-2
+J9 IEEE IC COMP COM NET
+PY 2025
+DI 10.1109/ICCCN65249.2025.11134014
+PG 9
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+GA BZ3WG
+UT WOS:001572092200171
+DA 2025-11-20
+ER
+
+PT J
+AU Rahman, KN
+   Hridoy, MW
+   Rahman, MM
+   Islam, MR
+   Banik, S
+AF Rahman, Kazi Naimur
+   Hridoy, Monowar Wadud
+   Rahman, Md Mizanur
+   Islam, Md Rifatul
+   Banik, Semonti
+TI Highly secured and effective management of app-based online voting
+   system using RSA encryption and decryption
+SO HELIYON
+LA English
+DT Article
+DE E -Voting; RSA encryption and decryption; Face detection;
+   Authentication; Face recognition; User validation using OTP; Device
+   fingerprint authentication
+AB This study pioneers an innovative approach to fortifying online voting systems, leveraging RSA (Rivest-Shamir-Adleman) encryption and decryption techniques for robust data protection. Through a comprehensive amalgamation of advanced security layers, including MobileFaceNetdriven face verification, device fingerprint matching, and multi-factor authentication, this system engenders a resilient shield against cyber vulnerabilities. By harnessing a Firebase database, user information is securely stored and authenticated, affirming their pivotal role in the democratic process. The symphony of RSA encryption and decryption orchestrates a formidable fortress around data transmission and storage, ensuring impregnable security against digital threats. This paradigm shift in voting technology strives to not only elevate security but also enhance accessibility and convenience, ultimately contributing to the evolution of online voting systems and fostering greater participation rates and reducing associated costs in the digital era.
+C1 [Rahman, Kazi Naimur; Hridoy, Monowar Wadud; Rahman, Md Mizanur; Islam, Md Rifatul; Banik, Semonti] Chittagong Univ Engn & Technol, CUET, Chittagong 4349, Bangladesh.
+C3 Chittagong University of Engineering & Technology (CUET)
+RP Rahman, KN (corresponding author), Chittagong Univ Engn & Technol, CUET, Chittagong 4349, Bangladesh.
+EM durjoyopu@gmail.com
+RI Rahman, Md Mizanur/ISS-3273-2023
+OI Rahman, Kazi Naimur/0000-0002-5510-6027
+CR Assistant Professor, 2016, International Journal of Advanced Research, V4, P1648, DOI [10.21474/ijar01/2257, 10.21474/IJAR01/2257, DOI 10.21474/IJAR01/2257]
+   Chen S, 2018, LECT NOTES COMPUT SC, V10996, P428, DOI 10.1007/978-3-319-97909-0_46
+   Geetha A., 2017, ICTACT Journal on Image and Video Processing, V7, P1393, DOI 10.21917/ijivp.2017.0202
+   Hussien H, 2013, 2013 INTERNATIONAL CONFERENCE ON COMPUTER APPLICATIONS TECHNOLOGY (ICCAT)
+   Jain M, 2016, Perspectives in Science, V8, P417, DOI [10.1016/j.pisc.2016.04.093, 10.1016/j.pisc.2016.04.093, DOI 10.1016/J.PISC.2016.04.093]
+   Khairnar SB, 2016, 2016 INTERNATIONAL CONFERENCE ON COMPUTING COMMUNICATION CONTROL AND AUTOMATION (ICCUBEA)
+   Li CQ, 2018, IEEE ACCESS, V6, P75834, DOI 10.1109/ACCESS.2018.2883690
+   Ni Hui, 2017, ncnn
+   Patil Rahul H., 2016, Int. Eng. Res. J. IERJ, V2, P758
+   Schroff F, 2015, PROC CVPR IEEE, P815, DOI 10.1109/CVPR.2015.7298682
+   Wilson DR, 2003, NEURAL NETWORKS, V16, P1429, DOI 10.1016/S0893-6080(03)00138-2
+   Ye GD, 2018, SECUR COMMUN NETW, DOI 10.1155/2018/8402578
+NR 22
+TC 0
+Z9 1
+U1 2
+U2 12
+PU CELL PRESS
+PI CAMBRIDGE
+PA 50 HAMPSHIRE ST, FLOOR 5, CAMBRIDGE, MA 02139 USA
+EI 2405-8440
+J9 HELIYON
+JI Heliyon
+PD FEB 15
+PY 2024
+VL 10
+IS 3
+AR e25373
+DI 10.1016/j.heliyon.2024.e25373
+EA FEB 2024
+PG 18
+WC Multidisciplinary Sciences
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Science & Technology - Other Topics
+GA KI8Q6
+UT WOS:001179426300001
+PM 38352773
+OA Green Submitted, gold
+DA 2025-11-20
+ER
+
+PT C
+AU Pegorini, JI
+   Souza, ACC
+   Ortoncelli, AR
+   Pagno, RT
+   Will, NC
+AF Pegorini, Jessica, I
+   Souza, Alinne C. C.
+   Ortoncelli, Andre R.
+   Pagno, Rodrigo T.
+   Will, Newton C.
+BE Loukis, E
+   Macadar, MA
+   Nielsen, MM
+TI Security and Threats in the Brazilian e-Voting System: A Documentary
+   Case Study Based on Public Security Tests
+SO 14TH INTERNATIONAL CONFERENCE ON THEORY AND PRACTICE OF ELECTRONIC
+   GOVERNANCE (ICEGOV 2021)
+LA English
+DT Proceedings Paper
+CT 14th International Conference on Theory and Practice of Electronic
+   Governance (ICEGOV)
+CY OCT 06-08, 2021
+CL Athens, GREECE
+SP Hellen Republ, Minist Digital Governance, Univ Aegean, Harokopio Univ Athens, United Nat Univ, Pylones
+DE electronic voting; electoral system; information security; security
+   tests; Brazilian elections
+AB Democracy is one of the processes that has become electronic over the years, and Brazil, as one of the countries with the largest democracy in the world in terms of number of voters, has also started the informatization of the voting process. However, it is important to note that, in addition to advantages that an all-electronic voting process brings to an election, such as rapid vote tabulation and the availability of results, there are technical issues to be addressed to prevent fraud and system failures, ensuring a fair process. In this sense, this paper presents a case study that analyzes what are the problems faced in the Brazilian electronic process by studying public reports released by the authorities. Brazilian e-voting system has several security mechanisms, such as voter authentication by biometrics, and is capable of detecting unauthorized modifications. Our findings show that, despite the Brazilian e-voting technological evolution, the system still faces some problems that can compromise the outcome of an election, and also bring some doubts about the procedures defined for carrying out public security tests in the e-voting system.
+C1 [Pegorini, Jessica, I] Univ Fed Parana, Curitiba, Parana, Brazil.
+   [Souza, Alinne C. C.; Ortoncelli, Andre R.; Pagno, Rodrigo T.; Will, Newton C.] Univ Tecnol Fed Parana, Dois Vizinhos, Brazil.
+C3 Universidade Federal do Parana; Universidade Tecnologica Federal do
+   Parana; Pontificia Universidade Catolica do Parana
+RP Pegorini, JI (corresponding author), Univ Fed Parana, Curitiba, Parana, Brazil.
+EM jipegorini@inf.ufpr.br; alinnesouza@utfpr.edu.br;
+   ortoncelli@utfpr.edu.br; rodrigopagno@utfpr.edu.br; will@utfpr.edu.br
+RI Will, Newton/X-4749-2018; Will, Newton/AAT-3891-2020
+OI Will, Newton/0000-0003-2976-4533; Pegorini, Jéssica
+   Iara/0000-0001-9005-4042; 
+CR Abel Luiz Fernando, 2018, PLANNING PUBLIC POLI, V1, P379
+   Aranha D. F., 2014, IGI Global, P149
+   Aranha DF, 2019, COMPUT SECUR, V86, P335, DOI 10.1016/j.cose.2019.06.009
+   Aranha DF, 2018, IEEE SECUR PRIV, V16, P22, DOI 10.1109/MSEC.2018.2875318
+   Aranha DF, 2016, ANN TELECOMMUN, V71, P287, DOI 10.1007/s12243-016-0511-1
+   Aranha Diego F., 2018, P 18 BRAZILIAN S INF, P57
+   Brereton P, 2007, J SYST SOFTWARE, V80, P571, DOI 10.1016/j.jss.2006.07.009
+   Coimbra Rodrigo Carneiro Munhoz, 2017, P 3 WORKSHOP ELECTOR, P666
+   de Lima Fernando Teodoro, 2017, P 3 WORKSHOP ELECTOR, P677
+   Electoral Justice, 2012, SEC TEST REV
+   Electoral Justice, 2017, REP EV COMM PUBL SEC
+   Electoral Justice, 2019, FIN REP EV COMM
+   Electoral Justice, 2017, ANSW VULN SUGG IMPR
+   Electoral Justice, 2019, VULN SUGG IMPR FDN 2
+   Electoral Justice, 2016, PUBL SEC TEST 2016 P
+   Electoral Justice, 2009, FIN REP EV COMM PUBL
+   Electoral Justice, 2019, PUBL SEC TEST
+   Ferrao Isadora Garcia, 2019, AUTOPHAGY, V11, P1, DOI [10.5335/rbca.v11i2.9056, DOI 10.5335/RBCA.V11I2.9056]
+   Fuck Luciano Felicio., 2016, ELECT BALLOT BOX 20
+   Joao Crisostomo da Rocha Cabral, 1934, ELECTORAL CODE REPUB, V3
+   Krimmer R, 2019, LECT NOTES COMPUT SC, V11759, P1, DOI 10.1007/978-3-030-30625-0_1
+   Lheureux de Freitas., 2017, Second International Joint Conference on Electronic Voting E-Vote-ID 2017, P59
+   Rodrigues-Filho J, 2006, GI LECT NOTES INFORM, P85
+   Silva RC, 2020, PROCEEDINGS OF THE 13TH INTERNATIONAL CONFERENCE ON THEORY AND PRACTICE OF ELECTRONIC GOVERNANCE, ICEGOV 2020, P349, DOI 10.1145/3428502.3428550
+   Silveira Carlos Macedo, 2011, Journal of Strategic Studies, V34, P281, DOI [10.1080/01402390.2011, DOI 10.1080/01402390.2011]
+   Superior Electoral Court, 2021, HIST EL VOT
+   Superior Electoral Court, 2019, BALL BOX SEC CRYPT
+   Wohlin C., 2012, Experimentation in Software Engineering, P37, DOI [DOI 10.1007/978-3-642-29044-2, 10.1007/978-3-642-29044-2_3, DOI 10.1007/978-3-642-29044-2_3]
+   Yin R.K., 2014, Case study research: Design and methods, V5th
+NR 29
+TC 0
+Z9 0
+U1 0
+U2 4
+PU ASSOC COMPUTING MACHINERY
+PI NEW YORK
+PA 1601 Broadway, 10th Floor, NEW YORK, NY, UNITED STATES
+BN 978-1-4503-9011-8
+PY 2021
+BP 157
+EP 164
+DI 10.1145/3494193.3494301
+PG 8
+WC Computer Science, Information Systems; Communication; Computer Science,
+   Interdisciplinary Applications; Computer Science, Theory & Methods;
+   Political Science; Public Administration
+WE Conference Proceedings Citation Index - Science (CPCI-S); Conference Proceedings Citation Index - Social Science &amp; Humanities (CPCI-SSH)
+SC Computer Science; Communication; Government & Law; Public Administration
+GA BU7AI
+UT WOS:000933151800022
+DA 2025-11-20
+ER
+
+EF
