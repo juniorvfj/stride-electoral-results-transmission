@@ -21,11 +21,12 @@ A practical and publication-friendly structure is the following:
 ├── README.md
 ├── architecture/
 │   ├── README.md
-│   ├── figure-01-result-transmission-architecture-highres.jpg
+│   ├── figure-01-result-transmission-architecture-highres.png
 │   ├── figure-01-result-transmission-architecture.excalidraw
 ├── methodology/
 │   ├── README.md
 │   ├── 01_search_strings/
+│       ├── 01_search_strings.txt
 │   │   ├── scopus/
 │   │   │   ├── ScopusExport_2025-11-16_StringGeral.csv
 │   │   │   ├── ScopusExport_2025-11-16_StringAmeacasTransmissao.csv
